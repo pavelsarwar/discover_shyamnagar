@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:15px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>বংশীপুর ঐতিহাসিক শাহী মসজিদ</p>
+				</div>
+				
+				
+				
+				<div class="ui-corner-all custom-corners" align="center">
+					<div class="ui-bar ui-bar-a">
+						<h3>ছবিতে বংশীপুর ঐতিহাসিক শাহী মসজিদ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<img style="max-width: 100%;" src="image/bongcipur.jpg"/>
+						
+				 	</div>
+				</div>
+				
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>অবস্থান</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>বংশীপুর ঐতিহাসিক শাহী মসজিদ শ্যামনগর উপজেলার ইশ্বরীপুর ইউনিয়নে অবস্থিত। বংশীপুর ঐতিহাসিক শাহী মসজিদ শ্যামনগর শহর হতে ৫ কি.মি দক্ষিণে বংশীপুর বাসস্ট্যান্ডের পূর্বপাশে অবস্থিত। এটি যশোরেশ্বারী মন্দির থেকে মাত্র ৪০০ মিটার দুরে অবস্থিত। </p>
+						
+				 	</div>
+				</div>
+				
+
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>বর্ণনা</h3>
+				  	</div>
+					
+				  	<div class="ui-body ui-body-a">
+					<img style="max-width: 100%;" src="image/bongcipur1.jpg"/><br>
+						<p style=text-align:justify;>পাঁচ গম্বুজ বিশিষ্ট এই মসজিদটি ১৫৯৯ খ্রিস্টাব্দে নির্মিত বলে জানা যায়। একে টেংগা মসজিদও বলা হয়, টেংগা ফার্সি শব্দ, যার মানে সেনানিবাস বা ছাউনি। রাজা প্রতাপাদিত্যের সেনাপতি খাজা কামাল, বিশিষ্ট ব্যক্তিবর্গ, রাজ কর্মচারী, বহু পাঠান ও স্থানীয় মুসলিম সৈন্যদের নামাজের সুবিধার জন্য দুর্গের পাশে এ মসজিদটি নির্মাণ করা হয়েছিল। মসজিদটির বৈশিষ্ট্য হলো পাঁচটি মেহরাব বা ইমাম দাঁড়ানোর জায়গা। যেখানে একই সঙ্গে জামাত পরিচালনা সম্ভব হয়। মসজিদের পূর্বাংশে ২১ ফুট লম্বা একটি ও আরো কয়েকটি কবর আছে। এগুলো বার ওমরাহ’র কবর, যারা প্রতাপাদিত্যের বিরুদ্ধে যুদ্ধ করতে এসে মৃত্যুবরণ করেছিলেন। বংশীপুর বাসস্ট্যান্ডের পূর্ব পাশে এই মসজিদটি।</p>
+						
+				 	</div>
+				</div>
+				
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>যাতায়াত</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>শ্যামনগর উপজেলা সদর থেকে এর দূরত্ব প্রায় ৪ কিলোমিটার। বংশীপুর বাসস্ট্যান্ডের পূর্বপাশে। সকল স্থানীয় যানবহনসহ মাইক্রোবাসযোগে এটি পরিদর্শন করা যায়। </p>
+						
+				 	</div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>যোগাযোগ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-b">
+						<a href="Tel:+8801793447788" class="ui-link-inherit" data-role="button" data-theme="a"> উপজেলা ইকোট্যুরিজম <br>০১৭৯৩৪৪৭৭৮৮</a>
+						<a href="Tel:+8801710030391" class="ui-link-inherit" data-role="button" data-theme="a">দিপঙ্কর বিশ্বাস (ইকো গাইড)<br>০১৭১০০৩০৩৯১</a>
+				 	</div>
+				</div>
+				
+				
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

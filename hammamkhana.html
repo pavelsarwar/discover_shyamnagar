@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>হাম্মামখানা/হাবসিখানা</p>
+				</div>
+				
+				
+				<div class="ui-corner-all custom-corners" align="center">
+					<div class="ui-bar ui-bar-a">
+						<h3>ছবিতে হাম্মানখানা/হাবসিখানা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<img style="max-width: 100%;" src="image/hammankhana.jpg"/>
+						
+				 	</div>
+				</div>
+				
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>অবস্থান</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>হাম্মামখানা/হাবসিখানা শ্যামনগর উপজেলার ইশ্বরীপুর ইউনিয়নে অবস্থিত। হাম্মামখানা/হাবসিখানা শ্যামনগর শহর হতে ৫ কি.মি দক্ষিণে বংশীপুর বাসস্ট্যান্ডের পূর্বপাশে অবস্থিত। এটি যশোরেশ্বারী মন্দির থেকে মাত্র ২০০ মিটার দুরে অবস্থিত। </p>
+						
+				 	</div>
+				</div>
+				
+
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>বর্ণনা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>বংশীপুর গ্রামে যশোরেশ্বরী মন্দির ও টেংগা মসজিদের মাঝখানে অবস্থিত হাম্মামখানা। এটি রাজা প্রতাপাদিত্যের রাজকীয় অতিথিশালার অংশবিশেষ। এর মধ্যে চৌবাচ্চা, পানি চলাচলের পথ, ছাদে গম্বুজ এবং গম্বুজে বড় বড় ছিদ্র রয়েছে, যা দিয়ে আলো-বাতাস প্রবেশ করে। পশ্চিম পাশে ছোট দুটি পথ ছাড়া আর কোন জানালা দরজা নেই ভবনটিতে। এর নির্মাণকাল ষোল শতকের শেষ দিক। </p>
+						
+				 	</div>
+				</div>
+				
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>যাতায়াত</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>শ্যামনগর উপজেলা সদর থেকে এর দূরত্ব প্রায় ৪ কিলোমিটার। বংশীপুর বাসস্ট্যান্ডের পূর্বপাশে। সকল স্থানীয় যানবহনসহ মাইক্রোবাসযোগে এটি পরিদর্শন করা যায়। </p>
+						
+				 	</div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>যোগাযোগ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-b">
+						<a href="Tel:+8801793447788" class="ui-link-inherit" data-role="button" data-theme="a"> উপজেলা ইকোট্যুরিজম <br>০১৭৯৩৪৪৭৭৮৮</a>
+						<a href="Tel:+8801710030391" class="ui-link-inherit" data-role="button" data-theme="a">দিপঙ্কর বিশ্বাস (ইকো গাইড)<br>০১৭১০০৩০৩৯১</a>
+						
+						
+				 	</div>
+				</div>
+				
+				 
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

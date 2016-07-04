@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>যমুনা ও ইছামতি</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>বর্তমানে মৃত পূর্বে প্রবল বেগবতি যমুনা ইতিহাসের শুভেচ্ছাধন্য- ধন্য করেছে শ্যামনগরের মাটি। মা, মাটি, মানুষ এ তিনে ধন্য শ্যামনগর ইতিহাসের বরপূত্র সে। যমুনা, প্রত্যাপাদিত্য যশোহর এ তিনে ধন্য শ্যামনগর আজ এখানে বিরানভূমি-রাম, অযোদ্ধা-কোনটিই নেই। নেই প্রতাপাদিত্য নেই যমুনা, নেই যশোহর আছে শ্যামনগর। <br><br>
+						এ যমুনা সেই যমুনা মহাভারতের মাটির স্পর্শ যেখানে। যে যমুনার তীরে দিল্লী-আগ্রায়, মথুরা প্রয়াগে, হিন্দু-মুসলমান, বৌদ্ধ-খ্রীষ্টান, মোঘল ইংরাজ শত শত রাজ রাজেশ্বর সমগ্র ভারতের রাজদন্ড পরিচালনা করিতেন। সকলেই জানেন যমুনা ও সরস্বতী বিভিন্ন পথে আসিয়া প্রয়াগ বা এলাহাবাদের নিম্নে গঙ্গার সাথে মিশিয়াছে। এই যুক্ত প্রবাহ বঙ্গভূমিতে ভাগিরথী নামে সপ্তগ্রাম পর্যন্ত আসিয়া স্বরস্বতী দক্ষিনে ও যমুনা নামে বামে বিমুক্ত হইয়া পড়িয়াছে। <br><br>
+						এই ত্রিবেনী হইতে যমুনা কিছু দূর পর্যন্ত চবিবশ পরগনা ও নদীয়া এবং পরে চবিবশ পরগনা ও যশোরের সীমানা নির্দেশ করিয়া পূর্ব-দক্ষিণ দিকে প্রবাহিত হইয়া অনেকস্থান ঘুরিয়া দক্ষিণ দিকে পদ্মা নামক শাখা বিস্তার করিয়া চারঘাটের কাছে ইছামতির সহিত মিলিত হইয়াছে। <br><br>
+						ইছামতি সোজা দক্ষিনে অগ্রসর হইয়া বসুরহাট (বসিরহাট), টাকী, শ্রীপুর, দেবহট্ট, বসন্তপুর ও কালীগঞ্জ দিয়া যশোরেশ্বরী মন্দিরের নিকটে যমুনা ও ইছামতি পৃথক হইয়া ডানদিকে মামুদো নদী হইয়া সমুদ্রে পড়িয়াছে এবং ইছামতি বামভাগে কদমতলী ও মালঞ্চ প্রভৃতি নাম পরিবর্তন করি সাগরে মিশিয়াছে। (এখনে যমুনা ও ইছামতির প্রবাহের শ্যামনগর অবস্থিতি দেখিলাম)<br><br>
+						চারাঘাট হতে যমুনা নাম বিলুপ্ত হয়ে ইছামতি হয়। বসন্তপুর হতে ইছামতির পূর্বদিকে আবার যমুনা প্রবাহিত হয়। যমুনার ন্যায় স্রোতস্বিনী নদী সে যুগে আর ছিল কিনা সন্দেহ। কালিন্দীর স্রোত প্রবল হবার পর যমুনার যৌবন ফুরিয়ে যায়। উহাতে আর জোয়ার আসে নাই। ১২৭৪ সালের এক ভীষন ঝটিকায়(টরর্ন্ডো) ১২ ফুপ পানি বৃদ্ধি পায়। সেই সময় হতে যমুনার স্রোত একেবারে নিস্তব্ধ হয়ে পড়ে। <br><br>
+						বালিজমে যমুনার গতি শান্তভাব ধারন করে। ওদিকে কালিন্দীর জোয়ার যমুনায় প্রবেশ করে যমুনাকে দোটানা করে দেয়এবং অল্প দিনের মধ্যে বিশালকায় যমুনা ভরাট হয়ে যায়। যমুনা নদী এখন শুষ্কপ্রায়। একটি খালের মত্সুক্ষ রেখা এখনো যমুনার চিহ্ন রেখে গেছে। এই নদীর মধ্যে এখন সুন্দর ফসল ফলে। যে নদীর তীরে রাজা প্রতাপাদিত্যের সাথে মোঘল সেনাপতি মানসিংহের  মধ্যে যুদ্ধ সংঘটিত হয়েছিল এবং যে নদীমে মুঘল ও প্রতাপাদিত্যের রণসম্ভার বহন করে অসংখ্য রণতরী যাতায়াত করত তা এখন  মৃত। <br><br>
+						রোথনপুরের ত্রিমোহনা,জাহাজঘাটার চাকচিক্য মুকুন্দপুর ও মহৎপুরের গড় রাজধানীর ধুমধাম,ধূমঘাটেরদূর্গ সবই  ধূলির সাথে বিলীন হয়েছে।
+						</p>
+						
+				 	</div>
+				</div>
+				
+		
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

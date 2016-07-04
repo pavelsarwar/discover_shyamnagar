@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>রায়মঙ্গল</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>শ্যামনগর ও সুন্দরবনের পশ্চিমদিকের বৃহত্তম নদী রায়মঙ্গল। এ নদী ও  পদ্মার সাথে সংযুক্ত। মাথাভাঙ্গা নদী ভৈরব ছেড়ে দক্ষিণদিকে কৃষ্ঞগঞ্জের নিকট চুনী নাম ধানরন করে উহার এক শাখা পূর্বাভিমুখে বহির্গত হয়েছে। এ নদীর নাম ইছামতি।<br><br>
+						ইছামতি বনগ্রাম রেলস্টেশনের পূর্বদিক দিয়ে গোবরডাঙ্গার দক্ষিণে বিখ্যাত যমুনা নদীর সাথে মিশেছে। ভাগীরথী হতে বাঘেরখাল নামক স্থান যমুনার উৎপত্তিস্থল। যমুনাক্রমে চৌবেড়িয়া ও গোবরডাঙ্গা ঘুরে অবশেষে চারাঘাটের নিকট ইছামতির সাথে মিলিত হয়েছে। ইছামতি সোজা দক্ষিণমুখী হয়ে বসিরহাট,টাকী, দেবহাটা,শ্রীপুর, ও কালিগঞ্জ হয়ে ঐতিহাসিক যশোর বা ঈশ্বরীপুরে মিশেছে। <br><br>
+						এখানেই রাজা প্রতাপাদিত্যের প্রসিদ্ধ যশোর রাজ্যের রাজধানী ছিল। বসন্তপুর হতে ইছামতি কালিন্দী নাম গ্রহণ করেছে। পূর্ব এটি একটি খালের মত ছিল। পরে কালিন্দী নদীর প্রবাহ বৃদ্ধি পেতে থাকে সাহেবখালী কাকশিয়ালী খাল খননের পর কালিন্দী বেগবতী হয়ে সুন্দরকনের মধ্যে প্রবেশ করে রায়মঙ্গল নাম ধারন করে। এ নদী বর্তমান বাংলাদেশুভারতের সীমা নির্দেশ করে। <br><br>
+						দেশ বিভাগের পর রায়মঙ্গলের তীরে সীমান্ত পুলিশ ও শুল্ক বিভাগের অফিস স্থাপিত হয়েছে। রায়মঙ্গল ক্রমাগত ভীমমূর্তি ধারন করতঃ বঙোগাপসাগরে পতিত হয়েছে। রায়মঙ্গল নদী ও মাদারবাড়ীর চরের উত্তর দিক হতে নদী পশ্চিম-দক্ষিণমুখী হয়ে হরিণভাঙ্গা নাম ধারনকরতঃ সাগরগর্ভে বিলীন হয়েছে।মাদারবাড়ীর চর প্রথমে ভারতের অন্তর্ভুক্ত ছিল পরে উহা বাংলাদেশভুক্ত হয়েছে।
+						</p>
+						
+				 	</div>
+				</div>
+				
+		
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

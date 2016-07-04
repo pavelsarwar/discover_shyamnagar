@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:10px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>মুক্তিযোদ্ধাদের তালিকা</p>
+				</div>
+
+				<div class="ui-corner-all custom-corners">
+					
+				  	<div class="ui-body ui-body-a">
+					<div class="ui-bar ui-bar-b">
+						<h3>ইউনিয়ন- শ্যামনগর</h3>
+				  	</div>
+					 
+					<table class="table table-bordered" style="font-size:14px">
+				<tr>
+				<td class="info">ক্রমিক নং</td>
+				  <td class="warning">নাম</td>
+				  <td class="info">পিতার নাম</td>
+				  
+				</tr>  
+<tr><td>১</td><td>	গাজী আবুল হোসেন  </td><td>মৃতঃ হযরত আলী </td></tr> 
+<tr><td>২	</td><td>মৃতঃ রবীন্দ্র নাথ গাইন </td><td>মৃতঃ নিলমনি গাইন</td></tr> 
+<tr><td>৩</td><td>	আঃ বারেক গাজী  </td><td>মৃতঃ জরেদ আলী গাজী  </td> </tr> 
+<tr><td>৪</td><td>	মোঃ এন্তাজ আলী</td><td>মৃতঃ আঃ জব্বার মোড়ল </td>  </tr> 
+<tr><td>৫</td><td>	নিরাপদ মন্ডল </td><td> মৃতঃ মহাদেব মন্ডল   	</td></tr> 
+<tr><td>৬</td><td>	মুজিবর রহমান গাজী  </td><td>মৃতঃ  সহর আলী গাজী   </td></tr> 
+<tr><td>৭</td><td>	মোঃ নজরুল ইসলাম  </td><td>মৃঃ সৈয়দ আলী গাজী   </td></tr> 
+<tr><td>৮</td><td>	ডাঃ শেখ মাহাফুজুল হক</td><td>   শেখ নুর আলী </td></tr> 
+<tr><td>৯</td><td>	জি এম আবদুর রহিম</td><td>  ছমুদ্দীন গাজী</td></tr> 
+<tr><td> ১০</td><td>	শেখ মাহাবুবুর রহমান </td><td>  মৃঃ শেখ আঃ আজিজ</td></tr> 
+<tr><td>১১</td><td>	শেখ আনোয়ার হোসেন  </td><td>মৃতঃ শেখ শহরউদ্দীন   </td></tr> 
+<tr><td>১২</td><td>	মৃতঃ আঃ ছাত্তার তালুকদার </td><td> মোঃ তালুকদার</td></tr> 
+<tr><td>১৩</td><td>	মৃতঃ মনোয়ার হোসেন</td><td>  মৃতঃ শেখ আঃ মজিদ</td></tr> 
+<tr><td>১৪</td><td>	শেখ মোহর আলী</td><td>  মৃতঃ মোঃ ছাকাত আলী  </td></tr> 
+<tr><td>১৫</td><td>	শেখ জন্নুন</td><td>  মৃতঃ জয়নুদ্দীন   </td></tr> 
+<tr><td>১৬</td><td>	মৃতঃ স.ম আতাউর রহমান</td><td> মৃতঃ হাজী কোরবান আলী  </td></tr> 
+<tr><td>১৭</td><td>	শেখ আতিয়ার রহমান </td><td> মৃতঃ শেখ আঃ ওহাব  </td></tr> 
+<tr><td>১৮</td><td>	জি, এম, শহীদুল ইসলাম </td><td> মৃতঃ সৈয়দালী গাজী   </td></tr> 
+<tr><td>১৯</td><td>	মৃত শেখ নুর মোহাম্মাদ </td><td> মৃত শেখ বাছেক আলি </td></tr> 
+<tr><td>২০</td><td>	মোঃ হাবিবুর রহমান</td><td>  মৃতঃ মোঃ ছফেদ আলী গাজী   </td></tr> 
+<tr><td>২১	</td><td>গাজী আঃ মজিদ</td><td>  মৃতঃ আহাম্মদ আলী   </td></tr> 
+<tr><td>২২</td><td>	বাছের আলী গাজী </td><td>মৃতঃ ফজের আলী গাজী   </td></tr> 
+<tr><td>২৩</td><td>	মোঃ হাসেম আলী  </td><td>মৃত আমীর গাজী  </td></tr> 
+<tr><td>২৪</td><td>	মোঃ গফ্ফার গাজী (খিলায়েত)</td><td>  মৃতঃ আঃ লতিফ গাজী  </td></tr> 
+<tr><td>২৫</td><td>	ফজলু সরদার </td><td> মৃতঃ বেলাল সরদার   </td></tr> 
+<tr><td>২৬</td><td>	আব্দুর রাজ্জাক </td><td> মৃতঃ শেখ মনিরউদ্দিন</td></tr> 
+<tr><td>২৭</td><td>	মোঃ মজিবুর রহমান মোস্তফা</td><td> কোরবান আলী</td></tr> 
+<tr><td>২৮</td><td>	শেখ নুরুল ইমাম</td><td> মরহুম শেখ ইব্রাহিম   </td></tr> 
+<tr><td>২৯</td><td>	মো: আব্দুর রহিম সরদার  </td><td>মৃত জিনতুল্ল্যাহ সরদার </td></tr> 
+<tr><td>৩০</td><td>	মো: শাহাদাৎ হোসেন </td><td> মৃত: ওমর আলী গাজী</td></tr> 
+<tr><td>৩১</td><td>	মো: নওশের আলী গাজী  </td><td>মৃতঃ সহর আলী গাজী   </td></tr> 
+<tr><td>৩২</td><td>	মোঃ ছূন্নত আলী মল্লিক  </td><td>মৃত বকস মল্লিক  </td></tr>  
+<tr><td>৩৩</td><td>	মোঃ আঃ মজিদ </td><td>মৃতঃ বাছতুল্যা গাজী</td></tr> 
+<tr><td>৩৪</td><td>	মো: আব্দুল লতিফ </td><td>মৃতঃ সোনা গাজী</td></tr> 
+<tr><td>৩৫</td><td>	এস.এম. মুজিবর রহমান </td><td> মৃ: আলহাজ কোরবান সরদার   </td></tr> 
+<tr><td>৩৬</td><td>	মোঃ আঃ মান্নান  </td><td> মৃ: আলহাজ্ব সামছুদ্দীন মোল্যা   </td></tr> 
+<tr><td>৩৭</td><td>	নূর মোহাম্মদ গাজী  </td><td>মৃতঃ ইমান আলী গাজী</td></tr> 
+<tr><td>৩৮</td><td>	মোঃ নূরুল ইসলাম  </td><td>মৃতঃ গহর আলী মোল্যা</td></tr> 
+<tr><td>৩৯</td><td>	এস.এম সমশের </td><td> মৃতঃ কানাই সরদার   </td></tr> 
+<tr><td>৪০</td><td>	আঃ ছাত্তার </td><td> মৃতঃ কফিল সরদার   </td></tr> 
+<tr><td>৪১	</td><td>এ, এইচ, এম, আবু জুবায়ের </td><td> শেখ আব্দুস সাত্তার  </td></tr> 
+<tr><td>৪২</td><td>	মোঃ আঃ জলিল</td><td> মৃতঃ জিন্নাতুল্যাহ সরদার   </td></tr> 
+<tr><td>৪৩</td><td>	মৃতঃ এস,এম লিয়াকত আলী </td><td>মৃতঃ হাজী ওমর আলী সরদার </td></tr>   
+<tr><td>৪৪</td><td>	মোঃ ওমর আলি গাজী</td><td>  মৃতঃ মান্দার গনি   </td></tr> 
+<tr><td>৪৫</td><td>	মৃতঃ মোঃ মোজাম্মেল হক গাজী </td><td> মৃতঃ পাঁচু গাজী  </td></tr> 
+<tr><td>৪৬</td><td>	হারুনার রশিদ</td><td> মৃতঃ শেখ আঃ করিম   </td></tr> 
+<tr><td>৪৭</td><td>	মো: অহেদ আলী গাজী </td><td> মো: সরই গাজী   </td></tr> 
+<tr><td>৪৮	</td><td>মৃতঃ দাউদ আলী গাজী </td><td> মৃতঃ জফর গাজী   </td></tr> 
+<tr><td>৪৯</td><td>	শেখ আজম আলী </td><td> মৃত: শেখ আহের উদ্দিন  </td></tr> 
+<tr><td>৫০	</td><td>শেখ আমজাদ হোসেন  </td><td>মৃ: শেখ ছালাউদ্দীন</td></tr> 
+<tr><td>৫১</td><td>	শেখ নুরুল ইসলাম </td><td>মরহুম শেখ আব্দুর রহিম</td></tr> 
+<tr><td>৫২	</td><td>মোঃ আব্দুল্যাহ কবীর	</td><td>মরহুম ছাকাত আলী মোড়ল</td></tr> 
+<tr><td>৫৩	</td><td>মো: নূর উদ্দীন মুন্সী</td><td>মৃত মমতাজ উদ্দীন</td></tr> 
+			</table>
+
+					
+	<div class="ui-bar ui-bar-b">
+						<h3>ইউনিয়ন- বুড়িগোয়ালিনী</h3>
+				  	</div>
+					
+					<table class="table table-bordered" style="font-size:14px">
+				<tr>
+				<td class="info">ক্রমিক নং</td>
+				  <td class="warning">নাম</td>
+				  <td class="info">পিতার নাম</td>
+				</tr>  				
+<tr><td>৫৪</td><td>	নিরাপদ বাইন  </td><td> মৃতঃ অশ্বিনী বাইন   </td></tr>
+<tr><td>৫৫</td><td>	ধীরেন্দ্র নাথ মন্ডল  </td><td>মৃতঃ কার্তিক চন্দ্র মন্ডল   </td></tr>
+<tr><td>৫৬</td><td>	মোঃ আব্দুল জব্বার</td><td> মৃত আইনুউদ্দীন মোলগ   </td></tr>
+<tr><td>৫৭</td><td>	মোঃ ছফেদ আলী গাজী </td><td> মৃতঃ ফকির গাজী</td></tr>
+<tr><td>৫৮</td><td>	মোঃ নওশের আলী গাজী (সুবেদার.অব) </td><td>মৃত শহর আলী গাজী</td></tr>
+<tr><td>৫৯</td><td>	মৃতঃ মোঃ নূরুল ইসলাম</td><td> মৃতঃ আলি মিয়া</td></tr>
+<tr><td>৬০</td><td>	শেখ মহিউদ্দীন  </td><td>মৃতঃ শেখ আলিম উদ্দীন</td></tr>
+<tr><td>৬১</td><td>	মোঃ সৈয়েদুর রহমান গাজী </td><td> মৃতঃ এবাদুল গাজী   </td></tr>
+	
+</table>					
+<div class="ui-bar ui-bar-b">
+						<h3>ইউনিয়ন- নূরনগর</h3>
+				  	</div>
+					
+					<table class="table table-bordered" style="font-size:14px">
+				<tr><td class="info">ক্রমিক নং</td>
+				<td class="warning">নাম</td>
+				<td class="info">পিতার নাম</td></tr>  
+				
+<tr><td>৬২</td><td> 	মৃতঃ ডি.এম. ইব্রাহীম খলিল </td><td> মৃতঃ চাপা ঢালী</td></tr>
+<tr><td>৬৩</td><td> 	মৃত আঃ কাদের গাজী </td><td>   মৃতঃ ফকির আহমেদ </td></tr>
+<tr><td>৬৪</td><td> 	শংকর চন্দ্র মন্ডল </td><td> মৃতঃ অন্নদা মন্ডল   </td></tr>
+<tr><td>৬৫</td><td> 	মোঃ সামছুদ্দীণ মোল্যা </td><td> মৃতঃ আয়নুদ্দীন মোল্যা   </td></tr>
+<tr><td>৬৬</td><td> 	ডাঃ মোঃ মুরিদ আলী </td><td> মৃতঃ মোঃ কিনু আলী গাজী  </td></tr>
+<tr><td>৬৭</td><td> 	নাথ আনিল কুমার</td><td>  মৃতঃ শিবপদ নাথ  </td></tr>
+<tr><td>৬৮</td><td> 	খাজা মইনুদ্দীন আহমেদ </td><td>মৃতঃ আমেদ আলী ঢালী</td></tr>
+<tr><td>৬৯</td><td> 	এম.এ মজিদ  </td><td>মৃতঃ কালাচাদ গাজী   </td></tr>
+<tr><td>৭১</td><td> 	মো: আ: গফফার সরদার </td><td>মৃতঃ নকিমদ্দিন   </td></tr>
+<tr><td>৭২</td><td> 	মৃ: আলি বক্স </td><td> মৃ: ইব্রাহিম কারিকর   </td></tr>
+<tr><td>৭৩</td><td> 	গাজী মুরশীদ আলী </td><td>মৃতঃ ছাকাত গাজী</td></tr>
+<tr><td>৭৪</td><td> 	এম বখতিয়ার আহম্মেদ</td><td> মৃতঃ হাজী সৈয়দ আলী</td></tr>
+<tr><td>৭৫</td><td> 	আঃ আজিজ </td><td>মৃতঃ এন্তাজ আলী গাজী</td></tr>
+<tr><td>৭৬</td><td> 	মৃতঃ নূরালী গাজী</td><td>মৃতঃ ঝড়ু গাজী</td></tr>
+<tr><td>৭৭</td><td> 	গাজী আঃ হামিদ</td><td> মৃতঃ কোমর উদ্দীন</td></tr>
+<tr><td>৭৮</td><td> 	মোঃ মোসলেম উদ্দীন</td><td> মৃতঃ ছেফাতুল্যা গাজী</td></tr>
+	</table>		
+	
+	
+	<div class="ui-bar ui-bar-b">
+						<h3>ইউনিয়ন- আটুলিয়া</h3>
+				  	</div>
+					<table class="table table-bordered" style="font-size:14px">
+				<tr><td class="info">ক্রমিক নং</td>
+				<td class="warning">নাম</td>
+				<td class="info">পিতার নাম</td></tr>  
+<tr><td>৭৯</td><td> 	মোঃ আঃ হামিদ </td><td>  মৃতঃ পচাব্দি সরকার</td></tr>
+<tr><td>৮০	</td><td> মোঃ খবির উদ্দীন </td><td> মোড়ল  মৃঃ গোলাপ রহমান</td></tr>
+<tr><td>৮১</td><td> 	মোঃ গোলাম হোসেন </td><td> মৃতঃ পানাউল্যা গাজী   </td></tr>
+<tr><td>৮২</td><td> 	মোঃ আতিয়ার</td><td>  মৃতঃ টেনাই সরদার   </td></tr>
+<tr><td>৮২</td><td> 	জি,এম, আব্দুল আজিজ </td><td>  মৃতঃ ছেফাতুল্লা গাজী   </td></tr>
+<tr><td>৮৩</td><td> 	মোঃ আবু মহসীন </td><td> মৃতঃ আকবর গাজী   </td></tr>
+<tr><td>৮৪</td><td> 	মোঃ হাফিজুর রহমান </td><td> মৃতঃ মোঃ জামাল উদ্দীন গাজী   </td></tr>
+<tr><td>৮৫</td><td> 	হাজের উদ্দিন </td><td>  মৃতঃ মান্দার সরদার   </td></tr>
+<tr><td>৮৬</td><td> 	জি,এম, হুমায়ূন কবীর </td><td> মৃতঃ কোরবান আলী গাজী   </td></tr>
+<tr><td>৮৭</td><td> 	কাজী আশরাফ হোসেন </td><td> মৃতঃ কাজী গোলাম হোসেন   </td></tr>
+<tr><td>৮৮</td><td> 	জি.এম মোস্তফা কামাল </td><td> মৃতঃ জনাব আলী গাজী   </td></tr>
+<tr><td>৮৯</td><td> 	মোঃ সামছুর রহমান</td><td>  মৃতঃ শহর আলী গাইন   </td></tr>
+<tr><td>৯০</td><td> 	মোঃ হাবিবুর রহমান  </td><td> মৃতঃ ওছমান মোড়ল   </td></tr>
+<tr><td>৯১</td><td> 	মৃত আঃ রশিদ </td><td>  মৃত জব্বার মোড়ল  </td></tr>
+<tr><td>৯২</td><td> 	মৃতঃ কেরামত আলী  </td><td> মৃতঃ দলিল উদ্দিন গাজী  </td></tr>
+<tr><td>৯৩</td><td> 	মোঃ জয়নাল </td><td>  মৃতঃ উজির আলী   </td></tr>
+<tr><td>৯৪</td><td> 	মৃতঃ হায়াত আলী  </td><td> মৃতঃ হযরত আলী   </td></tr>
+<tr><td>৯৫</td><td> 	নজরুল ইসলাম  </td><td> আশরাফ আলী গাজী  </td></tr> 
+<tr><td>৯৬</td><td> 	গোলাপ সরদার</td><td>  মৃতঃ এজাহার সরদার   </td></tr>
+<tr><td>৯৭</td><td> 	মোঃ আবু দাউদ মালী  </td><td> মৃত আঃ মান্নান মালী   </td></tr>
+<tr><td>৯৮</td><td> 	মোঃ লিয়াকত হোসেন</td><td>   মোঃ সোহরাব গাজী   </td></tr>
+<tr><td>৯৯</td><td> 	জি এম আবু বক্কর সিদ্দিক  </td><td> মৃত দেলবর গাজী (দেলবর)</td></tr>
+<tr><td>১০০</td><td> 	এম আবু বকর সিদ্দিক  </td><td>    মৃত তরফাতুল্যা</td></tr>
+<tr><td>১০১</td><td> 	মোঃ নুরুল ইসলাম </td><td>  মৃত ফজর আলী গাজী  </td></tr>
+<tr><td>১০২</td><td> 	মোঃ দেলবার ঢালী</td><td>   মৃত আলম ঢালী</td></tr>
+<tr><td>১০৩</td><td> 	মুঃ আঃ ছাত্তার গাজী</td><td>  মৃতঃ রমজান গাজী</td></tr>
+<tr><td>১০৪</td><td> 	আঃ খালেক</td><td>  মৃতঃ খাদেম আলি শেখ   </td></tr>
+<tr><td>১০৫</td><td> 	এ. এম, জিন্নাত আলী	</td><td> মৃতঃ আছিরুদ্দীন মোড়ল</td></tr>
+<tr><td>১০৬</td><td> 	মোঃ আমজাদ হোসেন	</td><td> মৃতঃ জয়নুদ্দীন গাজী</td></tr>
+</table>
+
+<div class="ui-bar ui-bar-b">
+						<h3>ইউনিয়ন- কৈখালী</h3>
+				  	</div>
+					<table class="table table-bordered" style="font-size:14px">
+				<tr><td class="info">ক্রমিক নং</td>
+				<td class="warning">নাম</td>
+				<td class="info">পিতার নাম</td></tr> 
+
+<tr><td>১০৭</td><td>	জি.এম আজিজুর রহমান </td><td>মোঃ জিয়াদ আলী   </td></tr>
+<tr><td>১০৮</td><td>	মোঃ আবু বক্কর সিদ্দিক  </td><td>মৃতঃ তোফাজ উদ্দীন   </td></tr>
+<tr><td>১০৯</td><td>	মোঃ আঃ লতিফ গাজী </td><td>মৃতঃ নরিম বক্স</td></tr>
+<tr><td>১১০</td><td>	শেখ নওশের আলী </td><td> মৃতঃ আহম্মদ আলী   </td></tr>
+<tr><td>১১১</td><td>	মোঃ জিয়াদ আলি  </td><td> মরহুম মোঃ খোরশেদ আলী   </td></tr>
+<tr><td>১১২</td><td>	মোঃ গোলাম রহমান সরদার  </td><td>মৃতঃ তাহের সরদার</td></tr>
+<tr><td>১১৩</td><td>	মোঃ জহুরুল হক </td><td> মৃতঃ মোঃ ছোলায়মান গাজী</td></tr>
+<tr><td>১১৪</td><td>	মৃতঃ কেসমত </td><td> মৃতঃ জেহেরুদ্দীন সরদার   </td></tr>
+<tr><td>১১৫</td><td>	হযরত আলী  </td><td>মৃতঃ মাদার বক্স   </td></tr>
+<tr><td>১১৬</td><td>	মোঃ নজরুল ইসলাম </td><td> মৃত মোঃ মোফাজ্জল হোসেন</td></tr>
+<tr><td>১১৭</td><td>	সুবেদার অজেদ আলী </td><td>মৃত সাহেব আলী</td></tr>
+<tr><td>১১৮</td><td>	মৃতঃ মোঃ আবুল কাশেম</td><td> মৃতঃ বিশে গাজী</td></tr>
+<tr><td>১১৯</td><td>	শেখ আব্দুল মজিদ </td><td>মৃত বাছতূল্যাহ শেখ</td></tr>
+</table>
+
+<div class="ui-bar ui-bar-b">
+						<h3>ইউনিয়ন- গাবুরা</h3>
+				  	</div>
+					<table class="table table-bordered" style="font-size:14px">
+				<tr><td class="info">ক্রমিক নং</td>
+				<td class="warning">নাম</td>
+				<td class="info">পিতার নাম</td></tr>
+				
+<tr><td>১২০</td><td>	জি, এম, নূরুল হক  </td><td>মৃতঃ রুস্তম গাজী   </td></tr>
+<tr><td>১২১</td><td>	রবীন্দ্র নাথ মন্ডল </td><td> মৃতঃ দেবেন্দ্র নাথ মন্ডল   </td></tr>
+<tr><td>১২২</td><td>	এস,ডি, নূর মোহাম্মদ   </td><td>মৃতঃ মোছাহাক মোড়ল </td></tr>  
+<tr><td>১২৩</td><td>	আফাজুদ্দীন  </td><td>  মকবুল হোসেন তরফদার   </td></tr>
+<tr><td>১২৪</td><td>	এস কে নূর মোহাম্মদ  </td><td> মৃ: মনিরউদ্দিন শেখ   </td></tr> 
+<tr><td>১২৫</td><td>	মীর আঃ রাজ্জাক </td><td> মৃত ওসমান মীর   </td></tr>
+<tr><td>১২৬</td><td>	মৃতঃ এস, কে আব্দুল আলী   </td><td> মৃতঃ আতর আলী  </td></tr>
+<tr><td>১২৭</td><td>	মৃতঃ ইউনুচ আলী  </td><td> মৃতঃ ওমর আলী   </td></tr>
+<tr><td>১২৮</td><td>	এস, এম, ওয়া জিহুর রহমান  </td><td> মৃতঃ কেরামত উল্যাহ সরদার </td></tr>
+<tr><td>১২৯</td><td>	মৃত সোহরাব হোসেন  </td><td> মৃত ইমান আলী সরদার</td></tr>
+</table>
+				
+				
+<div class="ui-bar ui-bar-b">
+						<h3>ইউনিয়ন- মুন্সিগঞ্জ</h3>
+				  	</div>
+					<table class="table table-bordered" style="font-size:14px">
+				<tr><td class="info">ক্রমিক নং</td>
+				<td class="warning">নাম</td>
+				<td class="info">পিতার নাম</td></tr>				
+				
+<tr><td>১৩০</td><td>	মোঃ মুজিবুল হক </td><td>  মৃতঃ গহর আলী মোড়ল   </td></tr>
+<tr><td>১৩১</td><td>	মোঃ সুরাত আলী গাজী </td><td> মোঃ আকাজ আলী গাজী   </td></tr>
+<tr><td>১৩২	</td><td>স্বপন কুমার হালদার </td><td>  মৃতঃ অভয় চরন হালদার   </td></tr>
+<tr><td>১৩৩</td><td>	মৃতঃ ইয়াকুব আলী ফকির </td><td>  মৃতঃ নবাব্দি ফকির   </td></tr>
+<tr><td>১৩৪</td><td>	মৃতঃ নবাব্দি ফকির </td><td>  মৃতঃ ইব্রাহীম ফকির   </td></tr>
+<tr><td>১৩৫</td><td>	মোঃ লুৎফর রহমান </td><td>  মৃত নবাবদি ফকির</td></tr>
+<tr><td>১৩৬</td><td>	বিমল কৃষ্ণ গায়েন  </td><td> মৃত রাজ কৃষ্ণ গায়েন   </td></tr>
+<tr><td>১৩৭</td><td>	মৃতঃ নূর মোহাম্মদ গাইন</td><td>  মৃতঃ ফকির গাইন   </td></tr>
+<tr><td>১৩৮</td><td>	মোঃ নূর ইসলাম সানা </td><td>  মৃতঃ ইমান আলী সানা </td></tr>
+<tr><td>১৩৯</td><td>	মোঃ আঃ আজিজ গাজী </td><td> মৃতঃ আব্দুল গাজী   </td></tr>
+<tr><td>১৪০</td><td>	মৃতঃ জি,এম আবুল কাশেম </td><td> মৃতঃ আঃ মান্নান   </td></tr>
+<tr><td>১৪১</td><td>	মনিন্দ্র নাথ মন্ডল</td><td>  মৃতঃ রাজেন্দ্র নাথ মন্ডল </td></tr>
+<tr><td>১৪২</td><td>	তারাপদ মন্ডল </td><td> মৃত রাখাল চন্দ্র মন্ডল   </td></tr>
+<tr><td>১৪৩</td><td>	হরিপদ মন্ডল </td><td>  মৃতঃ রাজেন্দ্র নাথ মন্ডল </td></tr>
+<tr><td>১৪৪	</td><td>মোঃ ফজলুল হক</td><td>   মৃতঃ মোঃ মোকছেদুর রহমান  </td></tr>
+<tr><td>১৪৫</td><td>	ওয়াজেদ আলী</td><td>  মৃতঃ শহর আলী গাজী   </td></tr>
+<tr><td>১৪৬</td><td>	মৃতঃ শেখ নজিবর রহমান</td><td>  মৃতঃ তমিজ উদ্দিন  </td></tr>
+<tr><td>১৪৭</td><td>	এস এম মোস্তফা কামাল </td><td> মৃতঃ বাহার আলী সরদার  </td></tr> 
+<tr><td>১৪৮	</td><td>কালীপদ বৈদ্য</td><td>  মৃত কৈলা চন্দ্র বৈদ্য  </td></tr>
+<tr><td>১৪৯</td><td>	মৃত লুৎফর গাজী </td><td> মৃতঃ বাহাদুর গাজী</td></tr>
+<tr><td>১৫০</td><td>	মোঃ গফ্ফার ফকির</td><td>  মৃত নবাবদি ফকির </td></tr>
+<tr><td>১৫১</td><td>	মোঃ আঃ আজিজ মালি</td><td>  মৃতঃ নূরারী মালি</td></tr>
+<tr><td>১৫২	</td><td>আলী পদ বিশ্বাস </td><td> মৃতঃ দেবেন্দ্র নাথ বিশ্বাস </td></tr>
+<tr><td>১৫৩</td><td>	দেবী রঞ্জন জোয়ারদার </td><td>  মৃতঃ সূয্যকান্ত জোয়ারদার</td></tr>
+</table>
+				
+<div class="ui-bar ui-bar-b">
+						<h3>ইউনিয়ন- ভুরুলিয়া</h3>
+				  	</div>
+					<table class="table table-bordered" style="font-size:14px">
+				<tr><td class="info">ক্রমিক নং</td>
+				<td class="warning">নাম</td>
+				<td class="info">পিতার নাম</td></tr>				
+				
+<tr><td>১৫৪</td><td>	আতিয়ার রহমান   </td><td>মৃতঃ জহুর ঢালী   </td></tr>
+<tr><td>১৫৫</td><td>	এস, এম, মিজানুর রহমান</td><td> মৃতঃ এস,এম, আতিয়ার রহমান   </td></tr>
+<tr><td>১৫৬</td><td>	শেখ আছমাতুল্য </td><td> মৃতঃ শেখ দলিল উদ্দীন   </td></tr>
+<tr><td>১৫৭</td><td>	শেখ আদম আলী  </td><td>মৃতঃ শেখ ইছহাক আলী</td></tr>		
+<tr><td>১৫৮</td><td>	মরহুম মোঃ মুনছুর রহমান সরদার </td><td> মৃতঃ ইসারাত আলী সরদার   </td></tr>
+<tr><td>১৫৯</td><td>	মৃতঃ এস.এম. জহুরুল হক </td><td> মোঃ আঃ ছোবহান সরদার  </td></tr>
+<tr><td>১৬০</td><td>	মোঃ জহুর আলি মোড়ল </td><td>মৃতঃ আব্দুল জববার মোড়ল   </td></tr>
+<tr><td>১৬১</td><td>	মৃতঃ আবুল কালাম গাজী </td><td>মৃতঃ আক্কাজ আলী    </td></tr>
+<tr><td>১৬২</td><td>	এম,এ, গফুর </td><td> মৃতঃ বাসতুল্যা গাজী  </td></tr>
+<tr><td>১৬৩</td><td>	সুকুমার </td><td> মৃতঃ হরি চরন   </td></tr>
+<tr><td>১৬৪</td><td>	এস,এম আফসার উদ্দীন  </td><td>আব্দুস ছোবহান সরদার   </td></tr>
+<tr><td>১৬৫</td><td>	মুজিবর রহমান </td><td> মৃতঃ হাজের সরদার  </td></tr>
+<tr><td>১৬৬</td><td>	আবু বকর সিদ্দীক</td><td>  মৃতঃ কেরামত সরদার (কিনু)</td></tr>
+<tr><td>১৬৭</td><td>	মোঃ মোকছেদুর রহমান </td><td>  মৃত মোস্তফা মোহাম্মদ আলী</td></tr>
+<tr><td>১৬৮</td><td>	মৃতঃ আঃ মজিদ গাজী </td><td> মৃতঃ জনাব আলী গাজী   </td></tr>
+<tr><td>১৬৯	</td><td>মৃত নিয়ামুদ্দীন সরদার </td><td>  মৃত দুর্লভ সরদার   </td></tr>
+</table>				
+				
+<div class="ui-bar ui-bar-b">
+						<h3>ইউনিয়ন- কাশিমাড়ী</h3>
+				  	</div>
+						<table class="table table-bordered" style="font-size:12px">
+				<tr><td class="info">ক্রমিক নং</td>
+				<td class="warning">নাম</td>
+				<td class="info">পিতার নাম</td></tr>				
+				
+<tr><td>১৭০	</td><td>মোঃ নজরুল ইসলাম  </td><td>মৃতঃ ফটিক কারিগর   </td></tr>
+<tr><td>১৭১</td><td>	মোঃ আঃ গফুর</td><td>  মোঃ জহির উদ্দীন মোল্যা   </td></tr>
+<tr><td>১৭২</td><td>	মোঃ সামছুর রহমান</td><td> মৃতঃ নাজের কারিকর   </td></tr>
+<tr><td>১৭৩	</td><td>মোঃ আবদুস সাদেক  </td><td>মৃতঃ দলিল উদ্দীন গাজী   </td></tr>
+<tr><td>১৭৪</td><td>	মোঃ আব্দুল কুদ্দুস পাড়</td><td> মৃতঃ হারুন পাড়   </td></tr>
+<tr><td>১৭৫</td><td>	আব্দুর রাজ্জাক </td><td> মৃতঃ আঃ খালেক গাজী   </td></tr>
+<tr><td>১৭৬	</td><td>গাজী আবুল বাসার</td><td> মৃতঃ আবুল কাশেম গাজী</td></tr>
+<tr><td>১৭৭	</td><td>মোঃ সোহরাব হোসেন </td><td>মৃতঃ রুপচাঁদ গাজী</td></tr>
+<tr><td>১৭৮	</td><td>মৃতঃ আঃ খালেক </td><td>মৃতঃ ইউসুপ   </td></tr>
+<tr><td>১৭৯	</td><td>এস, এম, নওশের আলী </td><td>মৃতঃ মনির উদ্দিন সরদার   </td></tr>
+<tr><td>১৮০</td><td>	মোঃ আঃ খালেক </td><td>মৃতঃ বেলায়েত  </td></tr>
+<tr><td>১৮১</td><td>	রাজগুল বাহার</td><td> মৃতঃ আলিম বাহার  </td></tr>
+<tr><td>১৮২	</td><td>দেব প্রসাদ মন্ডল  </td><td>মৃতঃ রাধা পদ মন্ডল   </td></tr>
+<tr><td>১৮৩	</td><td>আকিমুদ্দীন </td><td> মৃতঃ খেদবর গাজী   </td></tr>
+<tr><td>১৮৪	</td><td>দেবী রঞ্জন মন্ডল </td><td> স্বর্গীয় মেঘনাদ মন্ডল  </td></tr>
+<tr><td>১৮৫</td><td>	মোঃ মাওলা বক্স ঢালী </td><td> মৃতঃ ফজলুল হক ঢালী   </td></tr>
+<tr><td>১৮৬	</td><td>বরকত উল্লাহ গাজী  </td><td>মৃতঃ আয়নুদ্দীন গাজী   </td></tr>
+<tr><td>১৮৭	</td><td>মৃতঃ আবু দাউদ </td><td> মৃতঃ আমিনুদ্দীন বিশ্বাস</td></tr>
+<tr><td>১৮৮</td><td>	গাজী আঃ হাফিজ </td><td> মৃতঃ পরান গাজী   </td></tr>
+<tr><td>১৮৯	</td><td>মৃতঃ আস্বাদ আলী  </td><td>মৃতঃ কালাচাঁদ গাজী   </td></tr>
+<tr><td>১৯০	</td><td>মোঃ আকবর হোসেন </td><td> সৈয়দ আলী পেয়াদা   </td></tr>
+<tr><td>১৯১</td><td>	মোঃ নজরুল ইসলাম নান্টু  </td><td>মৃতঃ শামছুর রহমান   </td></tr>
+<tr><td>১৯২	</td><td>মোঃ গহর আলী মোড়ল</td><td> মৃতঃ আহম্মদ আলী   </td></tr>
+<tr><td>১৯৩	</td><td>জি.এম.ওসমান গনি </td><td> মৃতঃ জি.এম. পরাণ আলী</td></tr>
+<tr><td>১৯৪	</td><td>গাজী আঃ হামিদ</td><td> মৃতঃ পরান গাজী   </td></tr>
+<tr><td>১৯৫</td><td>	মৃ: অধ্যক্ষ আব্দুল হক</td><td> মৃতঃ মানিক গাজী   </td></tr>
+<tr><td>১৯৬</td><td>	মোঃ আব্দুল জলিল </td><td>মৃতঃ মানিক </td></tr>
+<tr><td>১৯৭	</td><td>মোঃ আফাজ উদ্দিন </td><td>মোঃ আক্কাজ আলী ঢালী  </td></tr> 
+<tr><td>১৯৮</td><td>	মোঃ আঃ গনি</td><td> মৃতঃ রহিমক্স তরফদার   </td></tr>
+<tr><td>১৯৯	</td><td>মোঃ আনছার আলী মোড়ল </td><td>মৃতঃ সুদাই মোড়ল   </td></tr>
+<tr><td>২০০	</td><td>জবেদালী সরদার </td><td>মৃতঃ আবুল হোসেন   </td></tr>
+<tr><td>২০১	</td><td>গাজী আঃ হাকিম  </td><td>মোঃ আঃ খালেক গাজী   </td></tr>
+<tr><td>২০২	</td><td>মৃতঃ আব্দুল রাজ্জাক গাজী  </td><td>মৃতঃ রিয়াজ উদ্দীন গাজী</td></tr>
+<tr><td>২০৩	</td><td>হরিদাস মণ্ডল</td><td> ভবেন্দ্র নাথ মন্ডল</td></tr>
+<tr><td>২০৪	</td><td>দাউদ আলী </td><td> মৃতঃ জব্বার মোড়ল</td></tr>
+<tr><td>২০৫</td><td>জি, এম, ইয়াহিয়ার রহমান  </td><td>মৃতঃ মানিক গাজী</td></tr>
+<tr><td>২০৬	</td><td>মোহাম্মদ আলী </td><td> মৃতঃ ছলিমদ্দিন মোড়ল</td></tr>
+<tr><td>২০৭	</td><td>ডাঃ এস, এম, আবু মুসা </td><td> মৃতঃ ইসাহাক আলী সরদার</td></tr>
+<tr><td>২০৮</td><td>	জালাল উদ্দীন ইকবাল </td><td>মৃতঃ হাজী ডি,এম,আক্কাস উদ্দীন আহমেদ</td></tr>
+<tr><td>২০৯</td><td>	মোঃ মোহর আলী </td><td> মোঃ এলাহি বকস   </td></tr>
+<tr><td>২১০	</td><td>মোঃ সুলতান আহম্মদ </td><td> মৃত জবেদালী সরদার   </td></tr>
+<tr><td>২১১	</td><td>মোঃ নুরুল আমিন </td><td> মৃত এম ইসাহাক গাজী   </td></tr>
+<tr><td>২১২</td><td>	বৈদ্য নাথ মন্ডল	</td><td>মৃত অধীর কুমার মন্ডল</td></tr>
+</table>			
+
+<div class="ui-bar ui-bar-b">
+						<h3>ইউনিয়ন- ঈশ্বরীপুর</h3>
+				  	</div>
+					<table class="table table-bordered" style="font-size:14px">
+				<tr><td class="info">ক্রমিক নং</td>
+				<td class="warning">নাম</td>
+				<td class="info">পিতার নাম</td></tr>
+				
+<tr><td>২১৩</td><td>	সুখেন্দ্র নাথ মিস্ত্রী </td><td>মৃঃ কালিপদ মিস্ত্রী   </td></tr>
+<tr><td>২১৪</td><td>	সুধীর চন্দ্র মন্ডল  </td><td>মৃঃ সহাদেব মন্ডল   </td></tr>
+<tr><td>২১৫	</td><td>নিরাপদ মন্ডল  </td><td>মৃতঃ মাতব্বর মন্ডল   </td></tr>
+<tr><td>২১৬</td><td>	মৃতঃ সুশীল কুমার  </td><td>মৃতঃ বিপিন সরদার  </td></tr>
+<tr><td>২১৭</td><td>	আমির হামজা  </td><td>মৃতঃ মনজের গাইন  </td></tr>
+<tr><td>২১৮</td><td>	মৃতঃ আব্দুস শুকুর </td><td> মৃতঃ আলহাজ্ব কোরবান আলী সরদার </td></tr>
+<tr><td>২১৯</td><td>	মৃত হরিহর মন্ডল</td><td> মৃত রামধন মন্ডল   </td></tr>
+<tr><td>২২০	</td><td>মোঃ নাসির উদ্দীন </td><td>হাজী বাহাদুর সরদার</td></tr>
+<tr><td>২২১</td><td>	আলহাজ্জ এ কে ফজলুল হক </td><td>মৃতঃ আলহাজ্জ্ব ওমর আলী সরদার</td></tr>
+<tr><td>২২২</td><td>	আব্দুল ওহাব </td><td>মৃঃ মোঃ আলিজেল গাজী   </td></tr>
+<tr><td>২২৩</td><td>	মোঃ আবুল কালাম গাইন</td><td> মৃঃ শামছুল হক গাইন   </td></tr>
+<tr><td>২২৪</td><td>	ডাঃ আলী আশরাফ </td><td>মৃঃ আঃ রহমান সরদার  </td></tr>
+</table>
+
+
+<div class="ui-bar ui-bar-b">
+						<h3>ইউনিয়ন- পদ্মপুকুর</h3>
+				  	</div>
+					<table class="table table-bordered" style="font-size:14px">
+				<tr><td class="info">ক্রমিক নং</td>
+				<td class="warning">নাম</td>
+				<td class="info">পিতার নাম</td></tr>
+
+
+<tr><td>২২৫</td><td>	মৃঃ আবু নেছার সিদ্দিক </td><td>মৃঃ হারুন অর রশিদ সরদার   </td></tr>
+<tr><td>২২৬</td><td>	শ্রী সন্তোষ কুমার মন্ডল </td><td> মৃঃ চন্দ্র কান্ত মন্ডল </td></tr>
+<tr><td>২২৭</td><td>	মৃঃ মোঃ আবু দাউদ ঢালী </td><td> মৃঃ বছির উদ্দিন ঢালী    </td></tr>
+<tr><td>২২৮</td><td>	মৃত রুহুল আমিন </td><td>মৃত আছির উদ্দীন </td></tr>
+<tr><td>২২৯</td><td>	মোঃ ফজলুল হক</td><td> মৃত ওমর আলী মোড়ল    </td></tr>
+<tr><td>২৩০</td><td>	অমল কুমার মন্ডল</td><td> মৃতঃ বিষ্ণুপদ মন্ডল    </td></tr>
+<tr><td>২৩১</td><td>	আজিয়ার রহমান </td><td> মৃঃ কাজেম গাজী    </td></tr>
+<tr><td>২৩২	</td><td>বিমল কৃষ্ণ মিস্ত্রী</td><td> মৃঃ হৃদয় কৃষ্ণ মিস্ত্রী    </td></tr>
+<tr><td>২৩৩</td><td>	যাদব চন্দ্র গাইন </td><td>মৃঃ নিলম্বর গাইন    </td></tr>
+<tr><td>২৩৪	</td><td>মোঃ আজিজুর রহমান গাজী </td><td>মৃত মাদার আলী গাজী    </td></tr>
+<tr><td>২৩৫</td><td>	মোঃ আব্দুর রাজ্জাক</td><td> মৃত মাহমুদ আলী মাঝি    </td></tr>
+<tr><td>২৩৬</td><td>	জি এম মোস্তাফিজুর রহমান</td><td> মুসা গাজী   </td></tr>
+<tr><td>২৩৭</td><td>	মোঃ হাফিজ উদ্দীন ঢালী </td><td>মৃত মোহর আলী ঢালী </td></tr>
+<tr><td>২৩৮	</td><td>এস.এম. নুরুল ইসলাম</td><td>	মৃত ফজলে করিম </td></tr>
+
+</table>
+
+<div class="ui-bar ui-bar-b">
+						<h3>ইউনিয়ন- রমজাননগর</h3>
+				  	</div>
+					<table class="table table-bordered" style="font-size:14px">
+				<tr><td class="info">ক্রমিক নং</td>
+				<td class="warning">নাম</td>
+				<td class="info">পিতার নাম</td></tr>
+				
+<tr><td>২৩৯</td><td> 	মৃতঃ মানিক বম্মন </td><td> মৃত ফটিক বর্মন  </td></tr>
+<tr><td>২৪০</td><td> 	কালিদাস চন্দ্র কর্মকার </td><td> মৃতঃ কার্তিক চন্দ্র কর্মকার   </td></tr>
+<tr><td>২৪১</td><td> 	মোঃ আরশাদ আলী গাজী </td><td> মৃঃ ফকির আহম্মদ গাজী  </td></tr>
+<tr><td>২৪২</td><td> 	পরিমল গায়েন </td><td>মৃঃ কৈলানা চন্দ্র গায়েন</td></tr>
+</table>
+
+
+
+				 	</div>
+				</div>
+			<link href="jquery/app.css" rel="stylesheet" type="text/css">	
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>সরকারি অফিস</p>
+				</div>
+				
+				<div class="ui-corner-all custom-corners" style=text-align:center;>
+					<div class="ui-bar ui-bar-a">
+						<h3>ভূমি বিষয়ক</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					
+						<p><img style="max-width: 100%;" src="img/vo.jpg"/><br><strong> উপজেলা ভূমি অফিস, শ্যামনগর</strong><br> নামঃ মো: আহসান উল্লাহ শরিফী <br>পদবি: সহকারী কমিশনার (ভূমি)<br>
+						<a href="Tel:+8801761812737">মোবাইল: ০১৭৬১৮১২৭৩৭</a>
+						<br>ফোন: ০৪৭২৬৪৪০০৪<br>ইমেইল: sharifi16588@gmail.com<br><br>
+						<strong>সাব-রেজিষ্ট্রারের কার্যালয়</strong><br> নামঃ মোঃ রবিউল ইসলাম </a><br>পদবি: সাব- রেজিষ্ট্রার<br>
+						<a href="Tel:+8801712579065">মোবাইল: ০১৭১২-৫৭৯০৬৫</a><br>ফোন: ০৪৭২৬৪৪০৩৪<br>ইমেইল: rabiuli642@gmail.com<br><br>
+						<strong> উপজেলা সেটেলমেন্ট অফিস</strong><br> নামঃ মুহম্মদ মনসুর আলী <br>পদবি: সহকারী সেটেলমেন্ট অফিসার<br><a href="Tel:+8801760198036">মোবাইল: ০১৭৬০-১৯৮০৩৬</a><br>ইমেইল: muhammadmunsurali@gmail.com 
+						</p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners" style=text-align:center;>
+					<div class="ui-bar ui-bar-a">
+						<h3>আইন-শৃঙ্খলা বিষয়ক</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>
+						<strong>শ্যামনগর থানা</strong><br> নামঃ এনামুল হক <br>পদবি: অফিসার ইনচার্জ<br><a href="Tel:+8801713374145">মোবাইল: ০১৭১৩৩৭৪১৪৫</a><br>ফোন: ০৪৭২৬ ৪৪০০৬<br>ইমেইল: ocshyamnagar@gmail.com</p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners" style=text-align:center;>
+					<div class="ui-bar ui-bar-a">
+						<h3>স্বাস্থ্য বিষয়ক</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>
+													<strong>শ্যামনগর উপজেলা স্বাস্থ্য কমপ্লেক্স</strong><br> নামঃ ডা: হাবিবুর রহমান<br>পদবি: উপজেলা  স্বাস্থ্য  ও পরিবার পরিকল্পনা কর্মকর্তা<br><a href="Tel:+8801718553344">মোবাইল: ০১৭১৮৫৫৩৩৪৪</a><br>ইমেইল: shyamnagar@uhfpo.dghs.gov.bd</p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners" style=text-align:center;>
+					<div class="ui-bar ui-bar-a">
+						<h3>কৃষি ও খাদ্য বিষয়ক</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p><strong>উপজেলা কৃষি অফিসারের কার্যালয়</strong><br> নামঃ আবুল হোসেন মিয়া<br>পদবি: উপজেলা কৃষি কর্মকর্তা<br><a href="Tel:+8801913442777">মোবাইল: ০১৯১৩৪৪২৭৭৭</a><br>ফোন: ০৪৭২৬৪৪০১৩<br>ইমেইল: ahossainmia@gmail.com<br><br>
+													<strong>উপজেলা প্রাণিসম্পদ কার্যালয়</strong><br> নামঃ ডা: সনজয় বিশ্বাস<br>পদবি: উপজেলা প্রাণিসম্পদ অফিসার<br><a href="Tel:+8801712283696">মোবাইল: ০১৭১২২৮৩৬৯৬</a><br>ফোন: ০৪৭২৬ ৪৪০২৮<br>ইমেইল: sanjoyvs77@yahoo.com<br><br>
+													<strong>উপজেলা মৎস্য কর্মকর্তার কার্যালয়</strong><br> নামঃ মো: ফারুক হোসাইন সাগর<br>পদবি: সিনিয়র উপজেলা মৎস্য কর্মকর্তা<br><a href="Tel:+8801740578102">মোবাইল: ০১৭৪০৫৭৮১০২</a><br>ইমেইল: sagore.faruk@gmail.com<br><br>
+													<strong>উপজেলা খাদ্য নিয়ন্ত্রকের কার্যালয়</strong><br> নামঃ মো:জাকির হোসেন সিকদার<br>পদবি: উপজেলা খাদ্য নিয়ন্ত্রক কর্মকর্তা<br><a href="Tel:+8801715167069">মোবাইল: ০১৭১৫১৬৭০৬৯</a><br>ইমেইল: unoshaymnagar@mopa.gov.bd
+													</p>
+						
+				 	</div>
+				</div>
+				
+				
+				
+				
+				<div class="ui-corner-all custom-corners" style=text-align:center;>
+					<div class="ui-bar ui-bar-a">
+						<h3>প্রকৌশল ও যোগাযোগ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p> <strong> উপজেলা প্রকৌশলীর কার্যালয়</strong><br> নামঃ মো:মফিজউদ্দীন <br>পদবি: উপজেলা প্রকৌশলী<br><a href="Tel:+8801711903606">মোবাইল: ০১৭১১৯০৩৬০৬</a><br>ফোন: ০৪৭২৬৪৪০২৯<br>ইমেইল: ue.shyamnagar@lged.gov.bd.<br><br>
+													   <strong>উপজলা পানি উন্নয়ন বোর্ড</strong><br> নামঃ এস.এম. আহসান হাবীব<br>পদবি: উপ-বিভাগীয় প্রকৌশলী<br><a href="Tel:+8801933208773">মোবাইল: ০১৯৩৩ ২০৮৭৭৩ </a><br>ইমেইল: ahabibbwdb@gmail.com<br><br>
+														<strong>উপজেলা জনস্বাস্থ্য প্রকৌশল অধিদপ্তর</strong><br> নামঃ মোঃ মোস্তাফিজুর রহমান <br>পদবি: উপ-সহকারী প্রকৌশলী জনস্বাস্থ্য কর্মকর্তা<br><a href="Tel:+8801556467877">মোবাইল: ০১৫৫৬-৪৬৭৮৭৭</a><br>ইমেইল: bdmosta@yahoo.com
+													 
+						
+				 	</div>
+				</div>
+				
+				
+
+				
+				<div class="ui-corner-all custom-corners" style=text-align:center;>
+					<div class="ui-bar ui-bar-a">
+						<h3>মানব সম্পদ উন্নয়ন বিষয়ক</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p> <strong>উপজেলা মহিলা বিষয়ক কর্মকর্তার কার্যালয়</strong><br> নামঃ মোঃ সাইদুল ইসলাম <br>পদবি: উপজেলা মহিলা বিষয়ক কর্মকর্তা<br><a href="Tel:+8801720002865">মোবাইল: ০১৭২০০০২৮৬৫</a><br>ফোন: ০৪৭২৬৪৪০৮৯<br>ইমেইল: saiduluwao@gmail.com<br><br>
+														
+														<strong>উপজেলা যুব উন্নয়ন অধিদপ্তর</strong><br> নামঃ মোঃ কামরুল ইসলাম<br>পদবি: উপজেলা যুব উন্নয়ন কর্মকর্তা<br><a href="Tel:+8801712001340">মোবাইল: ০১৭১২০০১৩৪০</a><br>ফোন: ০৪৭২৬৪৪০৬২ <br>ইমেইল: uydoshyamnagor7@gmail.com<br><br>
+														<strong>উপজেলা সমবায় কার্যালয়</strong><br> নামঃ মোঃ শরিফুল ইসলাম<br>পদবি: উপজেলা সমবায় অফিসার <br><a href="Tel:+8801716803987">মোবাইল: ০১৭১৬৮০৩৯৮৭</a><br>ফোন: ০৪৭২৬৪৪০২৪<br>ইমেইল: sharifstat@gmail.com<br><br>
+														
+														<strong>উপজেলা সমাজসেবা কার্যালয়</strong><br> নামঃ শেখ শহিদুর রহমান<br>পদবি: উপজেলা সমাজসেবা অফিসার<br><a href="Tel:+8801916336906">মোবাইল: ০১৯১৬৩৩৬৯০৬</a><br>ফোন: ০৪৭২৬৪৪০৯৬ <br>ইমেইল: socialservice.shyamnagar@gmail.cor<br><br>
+														<strong>উপজেলা পল্লী উন্নয়ন বোর্ড (বিআরডিবি)</strong><br> নামঃ এস.এম.এ সোহেল<br>পদবি: উপজেলা পল্লী উন্নয়ন অফিসার<br><a href="Tel:+8801726700701">মোবাইল: ০১৭২৬৭০০৭০১</a><br>ফোন: ০৪৭২৬৪৪০১৮<br>ইমেইল: urdoshyamnagar@gmail.com
+														</p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners" style=text-align:center;>
+					<div class="ui-bar ui-bar-a">
+						<h3>    শিক্ষা বিষয়ক</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p> <strong>উপজেলা মাধ্যমিক শিক্ষা অফিস</strong><br> নামঃ মোঃ রবিউল ইসলাম<br>পদবি: উপজেলা মাধ্যমিক শিক্ষা অফিসার<br><a href="Tel:+8801711460030">মোবাইল: ০১৭১১৪৬০০৩০</a><br>ফোনঃ ০৪৭২৬৪৪১৮৮<br>ইমেইল: useoshyam@gmail.com<br><br>
+														<strong>উপজেলা শিক্ষা অফিস, শ্যামনগর</strong><br> নামঃ ইসমাইল হোসেন<br>পদবি: উপজেলা শিক্ষা অফিসার<br><a href="Tel:+880177521789">মোবাইল: ০১৭৭৫২২১৭৮৯</a><br>ফোনঃ ০৪৭২৬৪৪০৯৯ <br>ইমেইল: ueoshyam@gmail.com<br><br>
+														<strong>উপজেলা রিসোর্স সেন্টার, শ্যামনগর</strong><br> নামঃ মোঃ আনোয়ার কবীর<br>পদবি: ইন্সট্রাক্টর <br><a href="Tel:+8801914782050">মোবাইল: ০১৯১৪৭৮২০৫০</a><br>ইমেইল: anuairkubir@yahoo.com
+														
+</p>
+						
+				 	</div>
+				</div>
+				
+				
+				<div class="ui-corner-all custom-corners" style=text-align:center;>
+					<div class="ui-bar ui-bar-a">
+						<h3>অন্যান্য</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>      
+						<strong>  উপজেলা হিসাব রক্ষন অফিস</strong><br> নামঃ জনাব সেখ সহিদুল ইসলাম<br>পদবি: উপজেলা হিসাব রক্ষন অফিসার<br><a href="Tel:+8801914114522">মোবাইল: ০১৯১৪১১৪৫২২</a><br>ইমেইল: skshahidul1964@gmail.com<br><br>
+       <strong> উপজেলা নির্বাচন অফিস</strong><br> নামঃ কামালউদ্দীন আহম্মেদ<br>পদবি: উপজেলা নির্বাচন অফিসার <br><a href="Tel:+8801717817431">মোবাইল: ০১৭১৭৮১৭৪৩১</a><br>ইমেইল: kamaluddin.bd67@yahoo.com<br><br>
+	   <strong>   উপজেলা সামাজিক বনায়ন কেন্দ্র </strong><br> নামঃ এম, এম, মিজানুর রহমান<br>পদবি: ফরেষ্টার<br><a href="Tel:+8801711479309">মোবাইল: ০১৭১১৪৭৯৩০৯</a><br><br>
+	   <strong>   উপজেলা পল্লী দারিদ্র বিমোচন ফাউন্ডেশন  </strong><br> নামঃ তপন জ্যোতি চক্রবর্তী<br>পদবি: উপজেলা দারিদ্র বিমোচন কর্মকর্তা (ভারপ্রাপ্ত)<br><a href="Tel:+8801718249424">মোবাইল: ০১৭১৮ ২৪৯৪২৪</a><br><br>
+	    <strong>উপজেলা প্রকল্প বাস্তবায়ন অফিস</strong><br> নামঃ মোঃ জাফর রানা<br>পদবি: উপজেলা প্রকল্প বাস্তবায়ন কর্মকর্তা<br><a href="Tel:+8801717155362">মোবাইল: ০১৭১৭১৫৫৩৬২</a><br>ইমেইল: shyamnagar.satkhira@dmic.cdmp.org.bd<br><br>
+		 <strong>উপজেলা জাতীয় মহিলা সংস্থার কার্যালয় </strong><br> নামঃ মিসেস শাহানা হামিদ<br>পদবি: চেয়ারম্যান<br><a href="Tel:+8801721047706">মোবাইল: ০১৭২১০৪৭৭০৬</a><br>ইমেইল: khandaker72@gmail.com
+						</p>
+				 	</div>
+				</div>
+				
+		
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

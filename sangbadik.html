@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<link href="jquery/app.css" rel="stylesheet" type="text/css">
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>সংবাদকর্মীবৃন্দ</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>উপজেলা প্রেস ক্লাব</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:left;> 
+<strong>জি. এম. আকবর কবীর</strong><br>সভাপতি<br>পত্রিকার নামঃ দৈনিক কালের কণ্ঠ, গ্রামের কাগজ, যমুনা নিউজ <br><a href="Tel:+8801712333623">মোবাইল: ০১৭১২৩৩৩৬২৩</a><br><br>
+<strong>জি.এম মনসুর আলম</strong><br>	সহ-সভাপতি<br>পত্রিকার নামঃ	দৈনিক তথ্য <br><a href="Tel:+8801716065507">মোবাইল:	০১৭১৬০৬৫৫০৭</a><br><br>
+<strong>জাহিদ সুমন</strong><br>	সাধারণ সম্পাদক	<br>পত্রিকার নামঃদৈনিক মানব জমিন/কালের চিত্র <br><a href="Tel:+8801711448879">মোবাইল:	০১৭১১৪৪৮৮৭৯</a><br><br>
+<strong>হাজী মুরাদ হোসেন</strong><br>	যুগ্ম-সম্পাদক<br>পত্রিকার নামঃ	দৈনিক দৃষ্টিপাত	 <br><a href="Tel:+8801713993006">মোবাইল: ০১৭১৩৯৯৩০০৬</a><br><br>
+<strong>সরদার সিদ্দিক</strong><br>	সাংগঠনিক সম্পাদক<br>পত্রিকার নামঃ	দৈনিক সমাজের কথা <br><a href="Tel:+8801714572020">মোবাইল:	০১৭১৪৫৭২০২০</a><br><br>
+<strong>কামরুজ্জামান সাগর	</strong><br>অর্থ সম্পাদক	<br>পত্রিকার নামঃ দৈনিক জনতা	 <br><a href="Tel:+8801711661239">মোবাইল: ০১৭১১৬৬১২৩৯</a><br><br>
+<strong>মেহেদি হাসান মারুফ</strong><br>	দপ্তর সম্পাদক<br>পত্রিকার নামঃ	দৈনিক সাতনদী/কাফেলা	 <br><a href="Tel:+8801911501379">মোবাইল: ০১৯১১৫০১৩৭৯</a><br><br>
+<strong>সামিউল ইসলাম মন্টি</strong><br>	ক্রীড়া সম্পাদক সম্পাঃ<br>পত্রিকার নামঃ	দৈনিক যশোর <br><a href="Tel:+8801735474651">মোবাইল:	০১৭৩৫৪৭৪৬৫১</a><br><br>
+<strong>অরবিন্দ মৃধা</strong><br>	কার্য নির্বাহী সদস্য<br>	পত্রিকার নামঃদৈনিক কাফেলা/সংবাদ	 <br><a href="Tel:+8801721561452">মোবাইল: ০১৭২১৫৬১৪৫২</a><br><br>
+<strong>জি.এম আব্দুল কাদের</strong><br>	কার্য নির্বাহী সদস্য<br>পত্রিকার নামঃ	দৈনিক জন্মভূমি	 <br><a href="Tel:+8801712600801">মোবাইল: ০১৭১২৬০০৮০১</a><br><br>
+<strong>রনজিৎ বর্মন	</strong><br>কার্য নির্বাহী সদস্য<br>	পত্রিকার নামঃদৈনিক যায়যায় দিন/পত্রদূত	 <br><a href="Tel:+8801712448960">মোবাইল: ০১৭১২৪৪৮৯৬০</a><br><br>
+<strong>শেখ আফজালুর রহমান	</strong><br>উপদেষ্টা<br>	পত্রিকার নামঃদৈনিক সময়ের খবর	 <br><a href="Tel:+8801711981652">মোবাইল: ০১৭১১৯৮১৬৫২</a><br><br>
+<strong>গাজী সালাউদ্দীন বাপ্পী</strong><br>	উপদেষ্টা	<br>পত্রিকার নামঃ দৈনিক পূর্বাঞ্চল	 <br><a href="Tel:+8801716035151">মোবাইল: ০১৭১৬০৩৫১৫১</a><br><br>
+
+<strong>মোঃ আবু সাঈদ</strong><br>	উপদেষ্টা<br>	পত্রিকার নামঃ দৈনিক ভোরের ডাক/দক্ষিণের মশাল	 <br><a href="Tel:+8801917146644">মোবাইল: ০১৯১৭১৪৬৬৪৪</a><br><br>
+<strong>এস, কে সিরাজ</strong><br>	সদস্য	<br>পত্রিকার নামঃ দৈনিক সমকাল/কাফেলা <br><a href="Tel:+8801716716848">মোবাইল: ০১৭১৬৭১৬৮৪৮</a><br><br>
+<strong>আনিসুজ্জামান সুমন	</strong><br>সদস্য	<br>পত্রিকার নামঃ দৈনিক যুগের বার্তা	 <br><a href="Tel:+8801912590322">মোবাইল: ০১৯১২৫৯০৩২২</a><br><br>
+<strong>আলগমগীর সিদ্দিক	</strong><br>সদস্য<br>	পত্রিকার নামঃ দৈনিক দিনকাল	 <br><a href="Tel:+8801712144713">মোবাইল: ০১৭১২১৪৪৭১৩</a><br><br>
+<strong>সামিউল আজম মনির	</strong><br>সদস্য<br>	পত্রিকার নামঃ দৈনিক পত্রদূত	 <br><a href="Tel:+8801712427390">মোবাইল: ০১৭১২৪২৭৩৯০</a><br><br>
+<strong>এস.এম মোস্তফা কামাল	</strong><br>সদস্য<br>পত্রিকার নামঃ 	দৈনিক নয়াদিগন্ত <br><a href="Tel:+8801950637323">মোবাইল:	০১৯৫০৬৩৭৩২৩</a><br><br>
+
+<strong>জি, এম মোহাম্মদ আলী	</strong><br>সদস্য<br>	পত্রিকার নামঃ দৈনিক স্পন্দন	 <br><a href="Tel:+8801920651922">মোবাইল: ০১৯২০৬৫১৯২২</a><br><br>
+<strong>আলহাজ্জ্ব ডাঃ আবু কওছার</strong><br>	সদস্য<br>পত্রিকার নামঃ 	দৈনিক ইনকিলাব	 <br><a href="Tel:+8801718092478">মোবাইল: ০১৭১৮০৯২৪৭৮</a><br><br>
+<strong>আজিজুর রহমান আজিজ	</strong><br>সদস্য<br>পত্রিকার নামঃ	দৈনিক পত্রদূত <br><a href="Tel:+8801714353563">মোবাইল:	০১৭১৪৩৫৩৫৬৩</a><br><br>
+<strong>আবুল হোসেন</strong><br>	সদস্য<br>পত্রিকার নামঃ 	দৈনিক সোনার বাংলা	 <br><a href="Tel:+8801959575057">মোবাইল: ০১৯৫৯৫৭৫০৫৭</a><br><br>
+
+<strong>ডাঃ পবিত্র কুমার মন্ডল	</strong><br>সদস্য<br>পত্রিকার নামঃ	দৈনিক ভোরের কাগজ	 <br><a href="Tel:+8801714509205">মোবাইল: ০১৭১৪৫০৯২০৫</a><br><br>
+<strong>জি.এম আসাদুজ্জামান লিটন</strong><br>	সদস্য<br>পত্রিকার নামঃ	দৈনিক আজকালের খবর <br><a href="Tel:+8801921777275">মোবাইল:	০১৯২১৭৭৭২৭৫</a><br><br>
+<strong>আব্দুর রহমান বাবু	</strong><br>সদস্য<br>পত্রিকার নামঃ	দৈনিক প্রবাহ <br><a href="Tel:+8801716341077">মোবাইল:	০১৭১৬৩৪১০৭৭</a><br><br>
+<strong>ডা: তপন কুমার বিশ্বাস</strong><br>	সদস্য	<br>পত্রিকার নামঃ দৈনিক প্রবর্তন <br><a href="Tel:+8801715368022">মোবাইল:	০১৭১৫৩৬৮০২২</a><br><br>
+<strong>নির্মল ঘোষ	</strong><br>সদস্য<br>পত্রিকার নামঃ	দৈনিক দেশ সংযোগ	 <br><a href="Tel:+8801712203566">মোবাইল: ০১৭১২২০৩৫৬৬</a><br><br>
+<strong>শেখ সোহরাব হোসেন</strong><br>	সদস্য<br>	পত্রিকার নামঃ দৈনিক আমাদের অর্থনীতি/দৃষ্টিপাত	 <br><a href="Tel:+8801715488822">মোবাইল: ০১৭১৫৪৮৮৮২২</a><br><br>
+<strong>আয়ুব আলী	</strong><br>সদস্য<br>	পত্রিকার নামঃ দৈনিক বাংলাদেশ সময়	 <br><a href="Tel:+8801982427778">মোবাইল: ০১৯৮২৪২৭৭৭৮</a><br><br>
+<strong>স.ম আব্দুস সাত্তার</strong><br>	সদস্য<br>পত্রিকার নামঃ	দৈনিক কালের চিত্র <br><a href="Tel:+8801715484910">মোবাইল:	০১৭১৫৪৮৪৯১০</a><br><br>
+<strong>এস, এম আনিচ্ছুজ্জামান	</strong><br>সদস্য	<br>পত্রিকার নামঃ দৈনিক আজকের সাতক্ষীরা	 <br><a href="Tel:+8801712333966">মোবাইল: ০১৭১২৩৩৩৯৬৬</a><br><br>
+<strong>এস.এম মিজানুর রহমান</strong><br>	সহযোগি সদস্য<br>	পত্রিকার নামঃ দৈনিক কল্যান/একুশে সংবাদ	 <br><a href="Tel:+8801724706548">মোবাইল: ০১৭২৪৭০৬৫৪৮</a><br><br>
+<strong>শাহিন আলম</strong><br>	সহযোগি সদস্য	<br>পত্রিকার নামঃ দৈনিক কালের চিত্র (কৈখালী প্রতিনিধি) <br><a href="Tel:+8801721854133">মোবাইল:	০১৭২১৮৫৪১৩৩</a><br><br>
+<strong>শহিদুল ইসলাম	</strong><br>সহযোগি সদস্য	<br>পত্রিকার নামঃ দৈনিক কালের চিত্র (রমজাননগর প্রতিনিধি)	 <br><a href="Tel:+8801718655965">মোবাইল: ০১৭১৮৬৫৫৯৬৫</a><br><br>
+<strong>মো: রেজাউল করিম	</strong><br>সহযোগি সদস্য	<br>পত্রিকার নামঃ দৈনিক কালের চিত্র (কাশিমাড়ী প্রতিনিধি)	
+
+</p>
+						
+				 	</div>
+				</div>
+			
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

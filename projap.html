@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>প্রবাজপুর মসজিদ</p>
+				</div>
+				
+			
+				
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>বিস্তারিত</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>
+সাতক্ষীরা থেকে মুকুন্দপুর, মুকুন্দপুর থেকে প্রায় ২ মাইল পূর্বে যমুনা-ইছামতি নদীর পূরান তীরবর্তী এলাকায় প্রবাজপুর গ্রামে মসজিদটি রয়েছে।<br><br>
+
+           মুকুন্দপুর থেকে প্রায় ২ মাইল পূর্বে যমুনা-ইছামতি নদীর পূরান তীরবর্তী এলাকায় প্রবাজপুর গ্রামে একটি বড় মসজিদ রয়েছে। এই মসজিদ টেরাকোটা ইট দিয়ে শিল্পমন্ডিত এবং পাঠান স্থাপত্য কৌশলের প্রভাব রয়েছে। মসজিদ পূর্বে পশ্চিমে লম্বা এবং পূর্ব দিকে বারান্দা আছে। বারান্দায় ছাদ এবং গম্বুজ ছিল। <br><br>তা বর্তমানে বিলুপ্ত। মসজিদের আয়তন ৫৫-৫ ইঞ্চি/৩৯-৮ইঞ্চি, দেয়ালগুলি ৫-৯ ইঞ্চি থেকে ৭ ইঞ্চি প্রস্থ। বারান্দাসহ মসজিদের ৬ কোনে সংলগ্ন মিনারের নিন্মাংশ বর্তমান রয়েছে।<br><br>
+
+ 
+
+     এই মসজিদ বিক্রমাদিত্যের রাজত্বকালে তার কোন সেনাধ্যক্ষা প্রবাজপুর খাঁর তত্বাবধানে নির্মিত হয়েছিল বলে জনশ্রুতি রয়েছে। ১৬০৮ খৃষ্টাব্দে নির্মিত আতিয়া মসজিদের সঙ্গে নির্মান কৌশলগত মিল এই মসজিদে রয়েছে। অথ্যাৎ সুলতানী আমলের স্থাপত্যের কৌশল প্রভাবিত।<br><br> তবু এই মসজিদের নির্মান কাল সম্পর্কে মতভেদ রয়েছে। বর্তমানে মসজিদের ভিতরে ও বাইরে কিছু কিছু পরিবর্তন সাধিত হয়েছে। শৈল্পিক উৎকর্ষ বজায় রাখার ফলে স্থানীয় প্রত্নজ্ঞানহীন মানুষের অর্থ ব্যায়ে পূর্বের বারান্দা এবং ভিতরে সংস্কার কাজের ফলে টেরাকোটা সৌন্দর্য্যাবলী সিমেন্ট দিয়ে বহুলাংশেই ঢেকে ফেলা হয়েছে। অন্যান্য অংশ অযত্নে ধ্বংশ প্রায়।</p>
+				 	</div>
+				</div>
+				
+				
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

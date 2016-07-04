@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>কপোতাক্ষ নদী</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>সুন্দরবন প্রদেশের আর একটি বিখ্যাত নদীর নাম কপোতাক্ষ(Eye of apegion)। ভৈরব নদী হতে উৎপত্তি হয়ে কপোতাক্ষ  ক্ষদ্রাকারে চৌগাছা,ঝিকরগাছা,চাকলা,ত্রিমোহনী,সাগরদাঁড়ি,তালা, কপিলমুনি রাড়ুলী,চাঁদখালী, বড়দল, আমাদি,বেদকাশি প্রভৃতি প্রসিদ্ধ স্থান সমূহের পার্শ্ব দিয়ে সুন্দরবনের মধ্যে খোলপেটুয়ার সঙ্গে মিশেছে। <br><br>
+						কপোতাক্ষ-পদ্মার শাখা কপোতাক্ষ যশোর থেকে কেশবপুর মাইকেল মধুসুদন দত্তের সাগরদাঁড়ী হয়ে রাড়ুলী আচার্যপ্রফুল্ল রায়ের বাড়ি ডাইনে ফেলে গাবুরা (শ্যামনগর) ইউনিয়নের চাঁদনীমুখার পাশ দিয়ে আড়পাঙ্গাশিয়া নাম নিয়ে সুন্দরবনের ভিতর মালঞ্চের সাথে মিলে সাগরে পড়েছে।<br><br>
+						এ সঙ্গমস্থলেই কপোতাক্ষ ফরেস্ট অফিস। খোলপেটুয়া ও কপোতাক্ষের স্রোত প্রবল হয়ে আড়পাঙ্গাশিয়া নাম ধারন করেছে। বঙ্গোপসাগর হতে দশ-বার মাইল উত্তরে আড়পাঙ্গাশিয়া নদী উত্তর-পশ্চিম দিক হতে আগত মালঞ্চ নদীর সাথে মিশে সমুদ্র পর্যন্ত মালঞ্চ নাম ধারন করেছে। এ নদীর মোহনায় স্রোত ভয়ংকর। <br><br>
+						১৭৬৬ খ্রীস্টাব্দে বৃটিশ জাহাজ ‘‘ ফালমাথ’’ এখানে নিমজ্জিত হয়। মালঞ্চ ও রায়মঙ্গল এর দক্ষিণ দিকে বিখ্যাত অতলষ্পর্শ বা অতলতল অবস্থিত।<br><br>
+কপোতাক্ষ হতে হরিহর নদী এসে ভদ্রে মিশেছে। ত্রিমোহনী ও মির্জানগর ভদ্রের তীরে মূঘল ফৌজদারের রাজধানী ছিল।
+						</p>
+						
+				 	</div>
+				</div>
+				
+		
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

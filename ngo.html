@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<link href="jquery/app.css" rel="stylesheet" type="text/css">
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>এনজিও</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+				  	<div class="ui-body ui-body-a">
+						<p> 
+						
+চন্দ্রিকা ব্যানার্জী<br>	পরিচালক	<br>নকশী কাথা	<br> ইমেইল: chandrika_nakshikantha@yahoo.com	<br><a href="Tel:+8801716134867" class="ui-link-inherit"> মোবাইলঃ  ০১৭১৬১৩৪৮৬৭</a><br><br>
+এ.বি.এম মোকলেস হক	<br>ম্যানেজার<br>	সাতক্ষীরা উন্নয়ন সংস্থা (সাস)<br> ইমেইল: 	monjilsultana@yahoo.com	<br> <a href="Tel:+8801716821995" class="ui-link-inherit">মোবাইলঃ  ০১৭১৬৮২১৯৯৫</a><br><br>
+এস.এম সিরাজুল ইসলাম	<br>ম্যানেজার	<br>ডিআরআরএ		<br> <a href="Tel:+8801712963836" class="ui-link-inherit">মোবাইলঃ  ০১৭১২৯৬৩৮৩৬</a>	<br><br>							
+কৃষ্ণপদ মুন্ডা	পরিচালক<br>	সামস্	<br><br> ইমেইল: sams.shyamnagar@gmail.com	<br><a href="Tel:+8801724337440" class="ui-link-inherit"> মোবাইলঃ  ০১৭২৪-৩৩৭৪৪০</a><br><br>
+মোহন কুমার মন্ডল	<br>পরিচালক<br>	লিডার্স<br> ইমেইল: 	ledars.bd@gmail.com	<br> <a href="Tel:+8801713462821" class="ui-link-inherit">মোবাইলঃ  ০১৭১৩৪৬২৮২১</a><br><br>
+শাহীন ইসলাম	<br>আঞ্চলিক পরিচালক	<br>বারসিক		<br><a href="Tel:+88001815309462" class="ui-link-inherit"> মোবাইলঃ  ০১৮১৫৩০৯৪৬২</a><br><br>
+মো: মিজানুর রহমান<br>	প্রজেক্ট ম্যানেজার	<br>ফ্রেন্ডশীপ		<br> <a href="Tel:+8801711189009" class="ui-link-inherit">মোবাইলঃ  ০১৭১১১৮৯০০৯</a><br><br>
+মো: রবিউল ইসলাম<br>	প্রজেক্ট ম্যানেজার	<br>ইসলামিক রিলিফ	<br> ইমেইল: robiul.islam@islamicrelief-bd.org	<br> <a href="Tel:+8801777773867" class="ui-link-inherit">মোবাইলঃ  ০১৭৭৭৭৭৩৮৬৭</a><br><br>
+মো: মনিবুল হাসান	<br>প্রজেক্ট ম্যানেজার	<br>সুশিলন	<br> ইমেইল: palash@asia.com	<br> <a href="Tel:+8801854802451" class="ui-link-inherit">মোবাইলঃ  ০১৮৫৪৮০২৪৫১</a><br><br>
+মো: শহিদুল ইসলাম	<br>এনআরএম ফেসিলিটেটর	<br>সিএনআরএস<br> ইমেইল: 	sharif_cnrs@yahoo.com	<br> <a href="Tel:+8801732431536" class="ui-link-inherit">মোবাইলঃ  ০১৭৩২-৪৩১৫৩৬</a><br><br>
+মো: হুমায়ুন কবীর	<br>উপজেলা ব্যবস্থাপক	রূপান্তর	<br><br> ইমেইল: skhumayun100@gmail.com	<br> <a href="Tel:+8801711265089" class="ui-link-inherit">মোবাইলঃ  ০১৭১১২৬৫০৮৯</a><br><br>
+মো: হাবিবুর রহমান	<br>নির্বাহী পরিচালক	<br>অশান্তি সমাজ কল্যান সংস্থা	<br> ইমেইল: director.aswa@gmail.com	<br><a href="Tel:+8801711055191" class="ui-link-inherit"> মোবাইলঃ  ০১৭১১০৫৫১৯১</a><br><br>
+শারমিন সিদ্দিকী	<br>প্রকল্প কর্মকর্তা	<br>ওয়াল্ড ফিস	<br> ইমেইল: s.siddiki@cgir.org	<br> <a href="Tel:+8801745644440" class="ui-link-inherit">মোবাইলঃ  ০১৭৪৫৬৪৪৪৪০</a><br><br>
+মো: আশেক এলাহী <br>	নির্বাহী পরিচালক<br>	প্রগতি<br> ইমেইল: 	progotingo@gmail.com	<br> <a href="Tel:+8801718405066" class="ui-link-inherit">মোবাইলঃ  ০১৭১৮৪০৫০৬৬</a><br><br>
+মো: কামরুল ইসলাম<br>	প্রজেক্ট ম্যানেজার	<br>জাগরনী চক্র ফাউন্ডেশন	<br> ইমেইল: kamrul72jcf@gmail.com	<br><a href="Tel:+8801716107583" class="ui-link-inherit"> মোবাইলঃ  ০১৭১৬১০৭৫৮৩</a><br><br>
+জয়ন্ত কুমার<br>	মনিটরিং কর্মকর্তা	<br>ওয়াল্ড ভিশন		<br><a href="Tel:+8801915883283" class="ui-link-inherit"> মোবাইলঃ  ০১৯১৫-৮৮৩২৮৩</a><br><br>
+বিদ্যুৎ মন্ডল<br>উপজেলা সমন্বয়কারী	<br>এসএমকেকে		<br> <a href="Tel:+8801931283762" class="ui-link-inherit">মোবাইলঃ  ০১৯৩১-২৮৩৭৬২</a><br><br>
+প্রশান্ত কুমার	<br>ব্যবস্থাপক	<br>কারিতাস		<br> <a href="Tel:+8801713384066" class="ui-link-inherit">মোবাইলঃ  ০১৭১৩-৩৮৪০৬৬</a><br><br>
+মো: আকতার হোসেন<br>	মাঠ সমন্বয়কারী<br>	আহছানিয়া মিশন	<br> <a href="Tel:+8801710684959" class="ui-link-inherit">মোবাইলঃ  	০১৭১০-৬৮৪৯৫৯</a><br><br>
+মো: আব্দুর রহমান<br>	নির্বাহী পরিচালক	<br>জোয়ার		<br> <a href="Tel:+8801742289732" class="ui-link-inherit">মোবাইলঃ  ০১৭৪২-২৮৯৭৩২</a><br><br>
+তুলশী সরকার	<br>প্রকল্প সমন্বয়কারী	<br>ব্র্যাক		<br> <a href="Tel:+8801717199774" class="ui-link-inherit">মোবাইলঃ  ০১৭১৭-১৯৯৭৭৪</a>
+
+ </p>
+						
+				 	</div>
+				</div>
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

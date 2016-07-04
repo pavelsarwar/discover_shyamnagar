@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<link href="jquery/app.css" rel="stylesheet" type="text/css">
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:15px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>সাতক্ষীরার ভাষা (উপভাষা)</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>সাতক্ষীরার ভাষা ইন্দো ইউরোপীয় মূলভাষা হতে উদ্ভূত মাগধী প্রাকৃত (ড. সুনীতিকুমার চট্টোপাধ্যায়) মতান্তরে গৌড়ী প্রাকৃত (ড. মুহম্মদ শহীদুল্লাহ) হতে বাংলাভাষার আধুনিক রূপ। উপমহাদেশীয় ভাষা বিজ্ঞানীদের মতে সমগ্র বাংলাভাষী অঞ্চল পাঁচটা উপ অথ্‌চলে বিভক্ত। বৃহত্তর যশোর ও খুলনা জেলাকে উক্ত পঞ্চবিভাজনের মধ্যে বাঙ্গালী উপভাষা অঞ্চলের অন্তর্ভুক্ত। <br><br>
+					কিন্তু প্রকৃতপক্ষে বৃহত্তর যশোর, খুলনা ও ভারতের পশ্চিমবঙ্গের চব্বিশ পরগণা (অবিভক্ত) জেলার দক্ষিণাঞ্চল বাঙ্গালী ও রাঢ়ী উপ ভাষার মিশ্রণে এর নবতর ভাষারূপের সমাহার। <br><br>
+					ভারতেরকোলকাতা রাঢ়ী উপভাষার অন্তর্ভুক্তহওয়ারও মানচলিত ভাষা একই রীতির অন্তর্ভুক্তহওয়ায় এবং সাতক্ষীরা জেলা কোলকাতার সন্নিকটস্থবলেসন্ধি এলাকার অবস্থাানের কারণে এই মিশ্র বৈশিষ্ট্য গড়ে ওঠায় একে "সুন্দরবনী উপভাষা"নামে অভিহিত করা হয়েছে।
+(সাতক্ষীরার উপভাষা স্বরূপ ও স্বতন্ত্র; কাজী মুহম্মদ অলিউল্লাহ :১২২, ২০০৯)।
+						</p>
+				 	</div>
+				</div>
+
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>সাতক্ষীরার উপভাষার আঞ্চলিক পরিধি</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;> সাতক্ষীরার আঞ্চলিক বৈশিষ্টগুলোকে নিম্নোক্তভাবে এলাকাভিত্তিক ভাগ করা যেতে পারে-<br>
+১. উত্তর ও উত্তর পূর্ব - যশোর জেলাসংলগ্ন তালা ও কলারোয়া উপজেলা এবং খুলনা জেলা সংলগ্ন তালা ও আশাশুনি উপজেলা ।<br>
+২. মধ্য- সাতক্ষীরা সদর উপজেলা ও তৎসংলগ্ন তালা, কলারোয়া, আশাশুনি ও দেবহাটা উপজেলা ।<br>
+৩. দক্ষিণ ও দক্ষিণ পশ্চিম - কালিগঞ্জ, শ্যামনগর, কালিগঞ্জ ও দেবহাটা উপজেলাসংলগ্ন আশাশুনি ও দক্ষিণ-চব্বিশ পরগণা/পশ্চিম বাংলা, ভারত সংলগ্ন দেবহাটা উপজেলা ।<br><br>
+মধ্যাঞ্চলে সাতক্ষীরা জেলা শহর অবস্থিত । নাগরিক জীবন-যাত্রা এবং শিক্ষা, সংস্কৃতি,রাজনীতি, অফিস-আদালত ও সর্বপ্রকার প্রতিষ্ঠানিক সুযোগ সুবিধের কারণে মানচলিতের প্রভার লক্ষ করা যায় । এ বৈশিষ্ট মূলত বাহ্যিক ও কৃত্রিম ; সামগ্রিকভাবে তা আঞ্চলিক ভাষাকে প্রভাবিত করতে পারেনি । <br><br>
+তা ছাড়া সামাজিক প্রয়োজনে এখানে যে মানচলিত ভাষা ব্যবহার করা হয়,উচ্চারণে তাতে ঔপভাষিক বৈশিষ্ট (টান) বজায় থাকে । সামগ্রিকভাবে মধ্যাঞ্চলের ভাষায় ঔপভাষিক বৈশিষ্টই বিরাজিত । এছাড়া থানা সদরগুলো উপজেলায় রুপান্তরিত হওয়ায় - যাতায়াত ব্যবস্থার দ্রুত উন্নতি, শিক্ষা প্রতিষ্ঠান বৃদ্ধি ও নানা প্রকার গণমাধ্যম সুবিধের কারণে উপজেলা সদর ও শিক্ষিত সম্প্রদায়ের কথায় মানচলিতের কিছু প্রভাব লক্ষ করা যাচ্ছে; যদিও তা বাহ্যিক এবং আঞ্চলিক বৈশিষ্ট ও উচ্চারণরীতি মুক্ত নয় ।<br><br>
+ 
+দক্ষিণ পশ্চিমাঞ্চলের প্রান্তদিক্ষণ সীমা সুন্দরবন সংলগ্ন শ্যামনগর উপজেলা । প্রান্তসুন্দরবন এলাকায় বৃটিশ আমলে আদিবাসী অভিবাসন ঘটায় এখানকার কথ্যভাষায় কিছু কিছু আদিবাসী শব্দের প্রভাব ও উচ্চারণ রীতি বিদ্যমান । তবে, সামগ্রিকভাবে শ্যামনগর, কালিগঞ্জ, দেবহাটা ও কালিগঞ্জ-দেবহাটা সংলগ্ন আশাশুনি উপজেলা পার্শ্ববর্তী জেলা চব্বিশ পরগণা ( পশ্চিমবাংলা, ভারত) তথা মানচলিতের প্রভার অপেক্ষাকৃত বেশি ।<br><br>
+ 
+উত্তর ও উত্তর পূর্বাঞ্চল খুলনা জেলা সংলগ্ন তালা ও আশাশুনি উপজেলায় খুলনা ,ফরিদপুর ও বরিশাল জেলার কিছুটা ভাষিক প্রভাব লক্ষ করা যায় । অন্যদিকে যশোর জেলা তালা ও কলারোয়া উপজেলায় ‘যশুরে’ ভাষার প্রভাব বেশি । তবে সামগ্রিক বিচারে তিন অঞ্চলের কথ্য ভাষায় পারস্পরিত ভিন্নতা ও স্থানিক বৈশিষ্ট নিতান্তই সামান্য ।<br><br>
+এই উপভাষার সাথে প্রধানত যশোর এবং মোটামুটি চব্বিশ পরগণার (দক্ষিণাংশ, পবঙ্গ, ভারত) ও খুলনা জেলার ঔপভাষিক বৈশিষ্ট সামঞ্জস্যপূর্ণ ।
+
+</p>
+						
+				 	</div>
+				</div>
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

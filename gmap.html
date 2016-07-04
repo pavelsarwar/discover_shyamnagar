@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			<div data-role="main" class="ui-content">
+				<a href="gmap/unomap.html" class="ui-btn ui-mini">ইউএনও অফিস</a>
+				<a href="gmap/akas.html" class="ui-btn ui-mini">আকাশলীনা <br>ইকোট্যুরিজম সেন্টার</a>
+				<a href="gmap/dobekimap.html" class="ui-btn ui-mini">দোবেকি <br>ইকোপর্যটন কেন্দ্র</a>
+				<a href="gmap/kolagachi.html" class="ui-btn ui-mini">কলাগাছি ইকো <br>পর্যটন কেন্দ্রর</a>
+				<a href="gmap/nv.html" class="ui-btn ui-mini">জাহাজঘাটা নৌদুর্গ</a>
+				<a href="gmap/sb.html" class="ui-btn ui-mini">সুন্দরবন পিকনিক কর্নার<br> ও ফিস পার্ক</a>
+				<a href="gmap/gd.html" class="ui-btn ui-mini">গোপালপুর<br> গোবিন্দদেবের মন্দির</a>
+				<a href="gmap/jb.html" class="ui-btn ui-mini">জমিদার হরিচরণ রায়  <br>বাহাদুরের বাসভবন</a>
+				<a href="gmap/zm.html" class="ui-btn ui-mini">যশোরেশ্বরী <br>কালী মন্দির</a>
+				<a href="gmap/mk.html" class="ui-btn ui-mini">হাম্মামখানা/হাবসিখানা</a>
+				<a href="gmap/bsm.html" class="ui-btn ui-mini">বংশীপুর ঐতিহাসিক <br>শাহী মসজিদ</a>
+				<a href="gmap/ural.html" class="ui-btn ui-mini">উরালমন আদিবাসী গ্রাম <br>ও নৌকা ভ্রমন সাইট</a>
+				<a href="gmap/sban.html" class="ui-btn ui-mini">সুন্দরবন ইকো কাটেজ<br> এন্ড নৌকা ভ্রমন</a>
+				<a href="gmap/mm.html" class="ui-btn ui-mini">মৌমাছি ইকো কটেজ<br> এন্ড বোট রাইডিং</a>
+				<a href="gmap/kmora.html" class="ui-btn ui-mini">কারাম মুরা<br>ম্যানগ্রোভ ভিলেজ</a>
+				<a href="gmap/forest.html" class="ui-btn ui-mini">মুন্সিগঞ্জ ফরেস্ট অফিস</a>
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="false" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top"
+						 rel="external"></a></li>
+						<li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

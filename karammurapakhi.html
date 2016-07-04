@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>কারাম মুরা পাখি পর্যবেক্ষণ কেন্দ্র</p>
+				</div>
+				
+				<div class="ui-corner-all custom-corners" align="center">
+					<div class="ui-bar ui-bar-a">
+						<h3>ছবিতে কারাম মুরা পাখি পর্যবেক্ষণ কেন্দ্র</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<img style="max-width: 100%;" src="image/karmpakhi.jpg"/>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>অবস্থান</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>কারাম মুরা ম্যানগ্রোভ ভিলেজের পাশেই অবস্থিত এই পাখি পর্যবেক্ষণ কেন্দ্রটি। এ ইকো পর্যটন কেন্দ্রটিও মুন্ডা সম্প্রদায়ের প্রতোক্ষ ব্যবস্থাপনায় পরিচালিত হয়।</p>
+				 	</div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>বর্ণনা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>ইউরোপিয় ইউনিয়নের সহযোগিতায় রিলিফ ইন্টারন্যাশনাল নামে একটি সংস্থার তৈরি আরও একটি ইকো সাইট। এখানে পাখি পর্যবেক্ষনের জন্য একটি টাওয়ার নির্মাণ করা হয়েছে। <br><br>এই টাওয়ারটিতে দাঁড়িয়ে পর্যটকরা সারা বছর পাখি পর্যবেক্ষণ করতে পারে, বিশেষ করে শীতের সময় যখন অতিথি পাখি আগমন করে তখন এই কেন্দ্রটি পাখির কলতানে মুখরিত হয়ে ওঠে। এই কেন্দ্রে পাশেই দুটি মুন্ডা বাড়িতে পর্যটকদের আবাসনের জন্য রয়েছে ইকো কটেজ। </p>
+				 	</div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>যাতায়াত</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>শ্যামনগর উপজেলা সদর হতে বংশীপুর বাজার হয়ে ভেটখালী পর্যন্ত ১৫ কিলোমিটার রাস্তা বাস, ইজবাইক, মাহিন্দ্র ও মটরসাইকেল যোগে যেতে হবে।<br><br> ভেটখালী বাজার থেকে মটরসাইকেল যোগে ৬ কিলোমিটার যেতে সময় লাগতে পারে ২০ মিনিট অথবা নদীপথে টুরিষ্ট ট্রলার করে যেতে সময় লাগতে পারে ১ ঘন্টা ১০ মিনিট।</p>
+				 	</div>
+				</div>
+				
+		<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>যোগাযোগ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-b">
+						<a href="Tel:+8801913264917" class="ui-link-inherit" data-role="button" data-theme="a"> দীনবন্ধু মুন্ডা (কটেজ মালিক)<br>০১৯১৩২৬৪৯১৭ </a>
+						<a href="Tel:+8801941982764" class="ui-link-inherit" data-role="button" data-theme="a">পরিতোষ মুন্ডা (বোট চালক)<br>০১৯৪১৯৮২৭৬৪</a>
+						
+						
+				 	</div>
+				</div>
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

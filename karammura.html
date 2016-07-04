@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>কারাম মুরা ম্যানগ্রোভ ভিলেজ</p>
+				</div>
+	
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>অবস্থান</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<img style="max-width: 100%;" src="karam/1.jpg">
+						<p style=text-align:justify;>উপজেলার রমজাননগর ইউনিয়নের সুন্দরবনের কোল ঘেষে অবস্থান কালিঞ্চি গ্রামের। ধজিখালী নদীর পাড়ে গড়ে ওঠা এ গ্রামে রয়েছে মুন্ডা ক্ষুদ্র-নৃগোষ্ঠি সম্প্রদায়ের বসবাস। এ সম্প্রদায়ের মানুষ সুন্দরবনকে পবিত্র স্থান বলে মনে করে।</p>
+				 	<img style="max-width: 100%;" src="karam/2.jpg">
+					</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>বর্ণনা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<img style="max-width: 100%;" src="karam/3.jpg">
+						<p style=text-align:justify;>এ গ্রামে ইউরোপিয় ইউনিয়নের সহযোগিতায় রিলিফ ইন্টারন্যাশনাল নামে একটি সংস্থা মুন্ডা ক্ষুদ্র নৃগোষ্ঠি সম্প্রদায়কে কেন্দ্র করে তৈরি করেছে কারাম মুরা ম্যানগ্রোভ ভিলেজ নামে এই সাংস্কৃতিক ইকো পর্যটন কেন্দ্রটি।<br> <br>মুন্ডা সস্প্রদায়ে প্রতোক্ষ ব্যবস্থাপনায় এখানে দেশি - বিদেশি পর্যটকদের জন্য রয়েছে আদিবাসী বাড়িতে থেকে সুন্দরবন ভ্রমনের সুযোগ। আবাসিক ব্যবস্থা থেকে শুরু করে আদিবাসী গান-বাজনা, নৌকা ভ্রমণ, খাওয়া-দাওয়া সবই রয়েছে এই ম্যানগ্রোভ ভিলেজে।</p>
+				 	<img style="max-width: 100%;" src="karam/5.jpg">
+					</div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>যাতায়াত</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<img style="max-width: 100%;" src="karam/4.jpg">
+						<p style=text-align:justify;>শ্যামনগর উপজেলা সদর হতে বংশীপুর বাজার হয়ে ভেটখালী পর্যন্ত ১৫ কিলোমিটার রাস্তা বাস, ইজবাইক, মাহিন্দ্র ও মটরসাইকেল যোগে যেতে হবে।<br> <br>ভেটখালী বাজার থেকে মটরসাইকেল যোগে ৬ কিলোমিটার যেতে সময় লাগতে পারে ২০ মিনিট অথবা নদীপথে টুরিষ্ট ট্রলার করে যেতে সময় লাগতে পারে ১ ঘন্টা ১০ মিনিট।</p>
+				 	</div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>যোগাযোগ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-b">
+						<a href="Tel:+8801740972809" class="ui-link-inherit" data-role="button" data-theme="a" title="কল করতে ক্লিক করুন">গোপাল মুন্ডা (পরিচালক)<br>০১৭৪০৯৭২৮০৯ </a>
+						<a href="Tel:+8801941982764" class="ui-link-inherit" data-role="button" data-theme="a">পরিতোষ মুন্ডা (বোট চালক)<br>০১৯৪১৯৮২৭৬৪</a>
+						
+						
+				 	</div>
+				</div>
+		
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

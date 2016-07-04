@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>খোলপেটুয়া নদী</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>কপোতাক্ষের স্রোত বৃদ্ধি প্রাপ্ত হওয়য় ভৈরবের স্রোত হ্রাস পেয়ে এটি একেবারে মজে যায়। যশোর জেলার সর্বাঙ্গিন উন্নতির অন্তরায় হয়ে পড়ে এ মরা ভৈরব। বর্তমানে এককালীন প্রলয়ঙ্করী ভৈরবের উপর দিয়ে বহু স্থানে পদব্রজে লোক যাতায়াত করে। বসুন্দিয়ার নিম্নে আফত্মার খালের দ্বারা চিত্রার জল ভৈরবে পড়ত বলে সে স্থান হতে নদী এখনো নামে মাত্র জীবিত আছে। আলাইপুর হতে বাগেরহাট পর্যন্ত একরূপ মজে গেছে। কয়েকবার সংস্কার করার পরও পূর্বতন অব্স্থায় ফিরে পাবার কোন আশা নেই। <br><br>
+						তবে এ পথে এখনো নৌকা চলাচল অব্যাহত আছে। কপোতাক্ষের মত বেতনা বা বেত্রাবতী ভৈরবের আর একটি শাখা। সোনাই নদী ইছামতি হতে উৎপত্তি হয়ে সাতক্ষীরার বল্লী বিলে পতিত হয়েছে। বেতনা মহেশপুরের সন্নিকটে ভৈরব হতে বের হয়ে নাভারন,বাঘাছড়া ও কলারোয়া হয়ে খুলনার সীমানায় এসে বুধহাটায় গাঙ নাম ধারন করতঃ সুন্দরবনের সন্নিকটে খোপেটুয়ায় মিশেছে। গুতিয়াখালী ও উজিরপুরের কাটাখালের সঙ্গমস্থল হতে গলঘেসিয়া নদী কল্যাণপুর ও শ্রীউলা গ্রামের নিকট দিয়ে খোপেটুয়ায় পড়েছে। উজিরপুর ও কাটাখাল এবং গুতিয়াখালী একসময় কলকাতার পণ্য দ্রব্য নৌকাযোগে আসাম ও পূর্ববঙ্গে বহন করত।<br><br>
+						গলঘেসিয়া সুন্দরবন যাতায়াতের একটি বিশিষ্ট নদীপথ। খোলপেটুয়া-ভেরবের শাখা বেতনা নদী যশোরের নাভারন বাগাঁচড়া হয়ে সাতক্ষীরা শহরে প্রবেশ করেছে। সামনে অগ্রসর হয়ে বুধহাটার গাঙ নামধারণ করে আশাশুনি কালিগঞ্জের মধ্য দিয়ে প্রতাপনগরের কাছ থেকে শ্যামনগর প্রবেশ করেছে। শ্যামনগরের আটুলিয়া ও পদ্মপুকুর ইউনিয়নের মধ্য দিয়ে খোলপেটুয়া নাম নিয়ে সুন্দরবনের মধ্য দিয়ে সাগরে যুক্ত। (পৃঃ-৪, সুন্দরবনাঞ্চলঃ মাটি ও মানুষ)<br><br>
+আসলে নদীমাতৃক বাংলাদেশের দক্ষিনাঞ্চলে নদীর প্রাবল্য বেশী। শ্যামনগরকে তাই ক্ষুদ্র ক্ষুদ্র দ্বীপের সমারোহে সৃষ্ট উপজেলা বলা চলে। নদী দ্বারা পৃথক করা ১২টি ইউনিয়নের শ্যামনগর দক্ষিণে বঙ্গোপসাগর বিধৌত সুন্দরবন, পূর্বে কপোতাক্ষ, পশ্চিমে কালিন্দী আর মধ্যভাগে যমুনা চুনার, খোলপেটুয়া, আইবুড়ি, কদমতলা, মাদার প্রভৃতি নদী ও খাল বেষ্টিত শ্যামনগর তাই ইতিহাস ধন্য।
+						</p>
+						
+				 	</div>
+				</div>
+				
+		
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

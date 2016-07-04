@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>আকাশলীনা ইকো ট্যুরিজম সেন্টার</p>
+				</div>
+				
+				<div class="ui-body ui-body-a" align="center">
+						<img style="max-width: 100%;" src="image/akaslina.jpg"/>
+						
+				 	</div>
+					
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>অবস্থান</h3>
+				  	</div>
+					
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;> মুন্সিগঞ্জ এবং কলবাড়ি বাজারের মধ্যবর্তী নয়নাভিরাম কেওড়া বাগানে অবস্থিত আকাশলীনা ইকো ট্যুরিজম সেন্টারর। এটি উপজেলার মুন্সিগঞ্জ ইউনিয়নের মুন্সিগঞ্জ বাজার সংলগ্ন।</p>
+						
+				 	</div>
+				</div>
+				
+
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>বর্ণনা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a" align="center">
+						<img style="max-width: 100%;" src="image/Akashlina1.jpg"/>
+						
+				 	</div>	
+					
+					<div class="ui-body ui-body-b">
+						<p style=text-align:justify;>জেলা প্রশাসনের ব্যবস্থাপনায় এই পর্যটন কেন্দ্রের সামনেই রয়েছে পৃথিবী র সর্ববৃহৎ ম্যানগ্রোভ বন সুন্দরবন। এখানে রয়েছে ট্রেল, জেটি ও নদীতে ভ্রমণের জন্য রয়েছে ইকো বোট। দুর -দুরান্তের পর্যটকদের জন্য রয়েছে আবাসিক ব্যবস্থা। <br><br>পূর্নিমার রাতে সুন্দরবনের অপার সৌন্দর্য এই স্থানটি ইকো পর্যটকদের কাছে অন্যতম লোভনীয়। যারা অল্প সময়ে সুন্দরবন দেখতে চান তাদের জন্য এটি আদর্শ সাইট। এখানে একটি রেস্টুরেন্ট, পরকিং স্থান, ছোট যাদুঘরসহ পর্যটকদের জন্য হরেক রকম সুবিধা।</p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>যাতায়াত ব্যবস্থা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>উপজেলা সদর হতে মুন্সিগঞ্জ বাজার সংলগ্ন এই কেন্দ্রটি মাত্র ১৭ কিলোমিটার দুরে পাকা রাস্তার যেতে সময় লাগতে পারে ২৫-৩০ মিনিট। স্থানীয় যানবাহনের পাশাপাশি বাস এবং মাইক্রোযোগে যাওয়া যেতে পারে।</p>
+						
+				 	</div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>যোগাযোগ: ইকো-গাইড</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-b">
+						<a href="Tel:+8801793447788" class="ui-link-inherit" data-role="button" data-theme="a">উপজেলা টকলাইন<br>০১৭৯৩৪৪৭৭৮৮</a>
+						<a href="Tel:+8801962436365" class="ui-link-inherit" data-role="button" data-theme="a">মো: সাইফুল ইসলাম <br>০১৯৬২৪৩৬৩৬৫ </a>
+						<a href="Tel:+8801851432036" class="ui-link-inherit" data-role="button" data-theme="a">তাপস মুন্ডা <br>০১৮৫১৪৩২০৩৬</a>
+						
+				 	</div>
+				</div>
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

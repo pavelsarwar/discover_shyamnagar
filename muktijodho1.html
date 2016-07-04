@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:10px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>মুক্তিযুদ্ধ</p>
+				</div>
+				<div class="ui-body ui-body-a" align="center">
+						<img style="max-width: 100%;" src="image/71.jpg"/>
+				 	 </div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>উপজেলার মুক্তিযুদ্ধ</h3>
+				  	</div>
+					
+					
+					
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>শ্যামনগর মুক্তিযুদ্ধের সময় ৯ নং সেক্টরের অধীনে ছিল। প্রথমে নৈকাটি ও পরে কৈখালীতে সাব সেক্টর অফিস ছিল। এ অফিসের দায়িত্বে ছিলেন ক্যাপ্টেন এম এন হুদা, ল্যঃ মাহফুজ আলম বেগ।<br><br>
+						শ্যামনগর মুক্তিযুদ্ধের কমান্ডার ছিলেন এস এম মিজানুর রহমান। মুজিব বাহিনির কমান্ডার ছিলেন প্রথমে সরদার লিয়াকত আলী এবং পরে আব্দুল মজিদ। মুক্তিযুদ্ধের সংগঠক ছিলেনঃ এ কে ফজলুল হক (তৎকালীন এম পি এ), শেখ আতিয়ার রহমান, বাবু বিশ্বনাথ দাশ, শেখ হারুনার রশিদ।<br><br>
+						১৯ আগষ্টের ১৯৭১ আগ পর্যন্ত শ্যামনগর মূলত মুক্ত থাকলেও মুক্তিবাহিনীর ক্যাম্প সদরে ছিল না। ১৮ আগষ্ট ৭১ শ্যামনগরের সদরে মুক্তিযোদ্ধা এসে ঘাটি করে। ১৯ আগষ্ট ৭১ পাকবাহিনী মুক্তিযোদ্ধাদের হটিয়ে শ্যামনগরের দখল নেয়। এবং ১৮ নভেম্বর ৭১ মধ্য রাতে শ্যামনগর হতে পাকবাহিনী পিছু হটার মাধ্যমে শ্যামনগর হানাদার মুক্ত হয়।<br><br>
+						শহীদঃ শ্যামনগরের মাটিতে ১৯ আগষ্ট ৭১ চার জন মুক্তিযোদ্ধা মারা যান। যাদের কবর গোপালপুরে অবস্থিত। তাঁরা হলেন- (১) সুবেদার ইলিয়াস (২) আবুল কালাম আযাদ (৩) আব্দুল কাদের (৪) অজ্ঞাত। এ দিন বেশ কয়েকজন গ্রামবাসী পাকবাহিনীর হাতে নিহত হন। তার মধ্যে নিতাই দাশ ও আববাস আলী গাজী। সুবেদার ইলিয়াস যেখানে শহীদ হন সেখানেই বর্তমান শহীদ স্মৃতি ফলক।</p>
+						
+				 	</div>
+				</div>
+<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>প্রধান প্রধান বদ্ধভূমি</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>(১)   কাতখালী খেয়াঘাটঃ পাকবাহিনী শ্যামনগরে অবস্থানকালীন বিভিন্ন এলাকা থেকে লোক ধরে নিয়ে এখানে এনে হত্যা করে। প্রায় প্রতি রাতেই এখানে মানুষ হত্যা করা হতো। অনেক সময় অর্ধ মৃত অবস্থায় অনেককে এখানে ফেলে রেখে যেত।<br><br>
+
+(২)  আনসার ভিডিপি অফিসের পিছন ভাগ (বর্তমান উপজেলা পরিষদের মধ্যে)ঃ এখান থেকে স্বাধীনতার পরে অনেক মাথার খুলি, চুড়ী, চুল, শাড়ী পাওয়া যায়।<br><br>
+
+(৩)হরিনগর বাজার সংলগ্ন নদীর চরঃ ৯ সেপ্টেম্বর ১৯৭১, ২৮ জনের অধিক মানুষকে হত্যা করা হয় এবং প্রায় ১০ থেকে ১৫ জন গুলি খেয়েও বেঁচে যায়।
+						
+						
+						</p>
+				 	</div>
+				</div>
+				
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>প্রধান প্রধান যুদ্ধ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>(১)   শ্যামনগর থানা অপারেশন<br>
+
+(২)  রামজীবনপুর যুদ্ধ<br>
+
+(৩) ঈশ্বরীপুর বাজারে রাজাকার ক্যাম্পে আক্রমন<br>
+
+(৪)   ভেটখালীতে যুদ্ধ<br>
+
+(৫)  নওয়াবেঁকী বাজারে যুদ্ধ<br>
+
+(৬)  কৈখালী নৌ-বাহিনীর সাথে যুদ্ধ<br>
+
+(৭)  হরিনগরে যুদ্ধ
+						</p>
+
+				 	</div>
+				</div>
+				
+				
+					<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>মুক্তিযুদ্ধা কমান্ডার</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>	নামঃ দেবী রঞ্জন মন্ডল <br> পদবীঃ সংসদ কমান্ডার <br>উপজেলা মুক্তিযুদ্ধা সংসদ <br><a href="Tel:+8801743938563" class="ui-link-inherit">মোবাইলঃ ০১৭৪৩৯৩৮৫৬৩ </a></p>
+
+				 	</div>
+				</div>
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

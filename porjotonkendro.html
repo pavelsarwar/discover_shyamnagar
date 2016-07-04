@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			<div data-role="main" class="ui-content">
+			<a href="dobeki.html" class="ui-btn ui-mini">দোবেকি ইকোপর্যটন কেন্দ্র</a>
+				<a href="kolagasi.html" class="ui-btn ui-mini">কলাগাছি ইকো <br>পর্যটন কেন্দ্র</a>
+				<a href="akashlina.html" class="ui-btn ui-mini">আকাশলীনা <br>ইকো ট্যুরিজম সেন্টার</a>
+				<a href="karammura.html" class="ui-btn ui-mini">কারাম মুরা<br>ম্যানগ্রোভ ভিলেজ</a>
+				<a href="karammurapakhi.html" class="ui-btn ui-mini">কারাম মুরা পাখি <br>পর্যবেক্ষণ কেন্দ্র</a>
+				<a href="uralmon.html" class="ui-btn ui-mini">উরালমন আদিবাসী গ্রাম <br>ও নৌকা ভ্রমন সাইট</a>
+				<a href="ecocottage.html" class="ui-btn ui-mini">মৌমাছি ইকো কটেজ<br> এন্ড বোট রাইডিং</a>
+				<a href="sondorbonecocottage.html" class="ui-btn ui-mini">সুন্দরবন ইকো কাটেজ<br> এন্ড নৌকা ভ্রমন</a>
+				<a href="golakhali.html" class="ui-btn ui-mini">গোলখালী<br> সুন্দরবন পয়েন্ট</a>
+				<a href="koikhali.html" class="ui-btn ui-mini">কৈখালী সিমান্ত ও <br>পাঁচ নদীর মোহনা</a>
+				
+				<a href="picniccorner.html" class="ui-btn ui-mini">গোপালপুর<br> পিকনিক কর্নার</a>
+				<a href="shiyalkuni.html" class="ui-btn ui-mini">শিয়ালকুনি বনায়ন</a>
+				<a href="gabura.html" class="ui-btn ui-mini">গাবুড়া কালীবাড়ি <br>পাখি পর্যবেক্ষণ কেন্দ্র</a>
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="false" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top"
+						 rel="external"></a></li>
+						<li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
